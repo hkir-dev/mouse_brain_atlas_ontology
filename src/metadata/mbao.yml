@@ -1,0 +1,28 @@
+# PURL configuration for http://purl.obolibrary.org/obo/mbao
+
+idspace: MBAO
+base_url: /obo/mbao
+
+products:
+- mbao.owl: https://raw.githubusercontent.com/hkir-dev/mouse_brain_atlas_ontology/main/mbao.owl
+- mbao.obo: https://raw.githubusercontent.com/hkir-dev/mouse_brain_atlas_ontology/main/mbao.obo
+
+term_browser: ontobee
+example_terms:
+- MBAO_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/hkir-dev/mouse_brain_atlas_ontology/v
+
+- prefix: /tracker/
+  replacement: https://github.com/hkir-dev/mouse_brain_atlas_ontology/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/MBAO?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/hkir-dev/mouse_brain_atlas_ontology/main/
+

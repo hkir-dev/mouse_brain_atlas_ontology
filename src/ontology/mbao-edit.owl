@@ -11,10 +11,11 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 Ontology(<https://purl.brain-bican.org/ontology/mbao.owl>
 
-Import(<https://purl.brain-bican.org/ontology/mbao/imports/uberon_import.owl>)
+# Import(<https://purl.brain-bican.org/ontology/mbao/imports/uberon_import.owl>)
+# Import(<https://purl.brain-bican.org/ontology/mbao/imports/mba_uberon_bridge_import.owl>)
 
-Import(<https://purl.brain-bican.org/ontology/mbao/imports/mba_uberon_bridge_import.owl>)
-
+Import(<https://purl.brain-bican.org/ontology/mbao/imports/merged_import.owl>)
+Import(<https://purl.brain-bican.org/ontology/mbao/components/all_templates.owl>)
 
 Import(<https://purl.brain-bican.org/ontology/mbao/patterns/definitions.owl>)
 Annotation(dcterms:description "None")
@@ -22,7 +23,6 @@ Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
 Annotation(dcterms:title "Mouse Brain Atlas Ontology")
 
 
-Declaration(Class(<https://purl.brain-bican.org/ontology/MBAO_0000000>))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
@@ -38,10 +38,6 @@ AnnotationAssertion(rdfs:label dcterms:title "title")
 ############################
 #   Classes
 ############################
-
-# Class: <https://purl.brain-bican.org/ontology/MBAO_0000000> (root node)
-
-AnnotationAssertion(rdfs:label <https://purl.brain-bican.org/ontology/MBAO_0000000> "root node"@en)
 
 
 )

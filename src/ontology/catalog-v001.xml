@@ -9,7 +9,7 @@
   <uri name="https://purl.brain-bican.org/ontology/mbao/imports/mba_uberon_bridge_import.owl" uri="imports/mba_uberon_bridge_import.owl"/>
   <uri name="https://purl.brain-bican.org/ontology/mbao/imports/mba_uberon_bridge_import.obo" uri="imports/mba_uberon_bridge_import.obo"/>
   
-
+  <uri name="https://purl.brain-bican.org/ontology/mbao/imports/merged_import.owl" uri="imports/merged_import.owl"/>
 
   
   <uri name="https://purl.brain-bican.org/ontology/mbao/components/all_templates.owl" uri="components/all_templates.owl"/>

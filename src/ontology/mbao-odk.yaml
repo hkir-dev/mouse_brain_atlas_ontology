@@ -31,9 +31,9 @@ import_group:
     - id: uberon
       mirror_from: http://purl.obolibrary.org/obo/uberon/subsets/mouse-view.owl
       use_base: TRUE
-    - id: mba_uberon_bridge
-#      mirror_from: https://github.com/obophenotype/ABA_Uberon/blob/master/src/ontology/sources/uberon-bridge-to-hba.obo
-      mirror_from: https://raw.githubusercontent.com/obophenotype/uberon/master/src/ontology/bridge/uberon-bridge-to-mba.obo
+#    - id: mba_uberon_bridge
+##      mirror_from: https://github.com/obophenotype/ABA_Uberon/blob/master/src/ontology/sources/uberon-bridge-to-hba.obo
+#      mirror_from: https://raw.githubusercontent.com/obophenotype/uberon/master/src/ontology/bridge/uberon-bridge-to-mba.obo
 
 components:
   products:

@@ -18,8 +18,7 @@ Import(<https://purl.brain-bican.org/ontology/mbao/imports/merged_import.owl>)
 Import(<https://purl.brain-bican.org/ontology/mbao/components/all_templates.owl>)
 
 Import(<https://purl.brain-bican.org/ontology/mbao/patterns/definitions.owl>)
-Annotation(dcterms:description "None")
-Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
+Annotation(dcterms:license <http://creativecommons.org/licenses/by/4.0/>)
 Annotation(dcterms:title "Mouse Brain Atlas Ontology")
 
 

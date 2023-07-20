@@ -2,11 +2,16 @@
 ## 
 ## If you need to customize your Makefile, make
 ## changes here rather than in the main Makefile
+#
+# sh ./run.sh make clean
+# sh ./run.sh make prepare_release
+#
 # MBA : 1
 # DMBA : 17
 # HBA : 10
 # DHBA : 16
 # PBA : 8
+
 URIBASE = https://purl.brain-bican.org/ontology
 
 JOBS = 1 # 17 10 16 8
@@ -17,7 +22,7 @@ LINKML = linkml-data2owl
 
 STRUCTURE_GRAPHS = $(patsubst %, sources/%.json, $(JOBS))
 ALL_GRAPH_ONTOLOGIES = $(patsubst sources/%.json,sources/%.ofn,$(STRUCTURE_GRAPHS))
-ALL_BRIDGES = $(patsubst %, sources/uberon-bridge-to-%.obo, $(BRIDGES))
+ALL_BRIDGES = $(patsubst %, sources/uberon-bridge-to-%.owl, $(BRIDGES))
 SOURCE_TEMPLATES = $(patsubst %, ../robot_templates/%_CCF_to_UBERON_source.tsv, $(TARGETS))
 NEW_BRIDGES = $(patsubst %, new-bridges/new-uberon-bridge-to-%.owl, $(TARGETS))
 
@@ -25,6 +30,7 @@ NEW_BRIDGES = $(patsubst %, new-bridges/new-uberon-bridge-to-%.owl, $(TARGETS))
 .PHONY: $(COMPONENTSDIR)/all_templates.owl
 $(COMPONENTSDIR)/all_templates.owl: clean_files dependencies $(COMPONENTSDIR)/linkouts.owl $(COMPONENTSDIR)/sources_merged.owl
 	$(ROBOT) merge -i $(COMPONENTSDIR)/linkouts.owl -i $(COMPONENTSDIR)/sources_merged.owl annotate --ontology-iri $(URIBASE)/$@ convert -f ofn -o $@
+	# $(ROBOT) query --input $@ --update $(SPARQLDIR)/declare_mba_disjoint_classes.ru --output $@
 .PRECIOUS: $(COMPONENTSDIR)/all_templates.owl
 
 # Installing depedencies so it can run in ODK container
@@ -53,23 +59,35 @@ sources/%.ofn: ../linkml/data/template_%.tsv
 .PRECIOUS: sources/%.ofn
 
 # download bridges
-sources/uberon-bridge-to-aba.obo:
+sources/uberon-bridge-to-aba.owl:
 	curl -o sources/uberon-bridge-to-aba.obo "https://raw.githubusercontent.com/obophenotype/uberon/master/src/ontology/bridge/uberon-bridge-to-aba.obo"
+	$(ROBOT) convert -i sources/uberon-bridge-to-aba.obo --format owl -o $@
+	sed -i 's|http://purl.obolibrary.org/obo/ABA_|https://purl.brain-bican.org/ontology/mbao/ABA_|g' $@
 
-sources/uberon-bridge-to-dhba.obo:
+sources/uberon-bridge-to-dhba.owl:
 	curl -o sources/uberon-bridge-to-dhba.obo "https://raw.githubusercontent.com/obophenotype/uberon/master/src/ontology/bridge/uberon-bridge-to-dhba.obo"
+	$(ROBOT) convert -i sources/uberon-bridge-to-dhba.obo --format owl -o $@
+	sed -i 's|http://purl.obolibrary.org/obo/DHBA_|https://purl.brain-bican.org/ontology/mbao/DHBA_|g' $@
 
-sources/uberon-bridge-to-dmba.obo:
+sources/uberon-bridge-to-dmba.owl:
 	curl -o sources/uberon-bridge-to-dmba.obo "https://raw.githubusercontent.com/obophenotype/uberon/master/src/ontology/bridge/uberon-bridge-to-dmba.obo"
+	$(ROBOT) convert -i sources/uberon-bridge-to-dmba.obo --format owl -o $@
+	sed -i 's|http://purl.obolibrary.org/obo/DMBA_|https://purl.brain-bican.org/ontology/mbao/DMBA_|g' $@
 
-sources/uberon-bridge-to-hba.obo:
+sources/uberon-bridge-to-hba.owl:
 	curl -o sources/uberon-bridge-to-hba.obo "https://raw.githubusercontent.com/obophenotype/uberon/master/src/ontology/bridge/uberon-bridge-to-hba.obo"
+	$(ROBOT) convert -i sources/uberon-bridge-to-hba.obo --format owl -o $@
+	sed -i 's|http://purl.obolibrary.org/obo/HBA_|https://purl.brain-bican.org/ontology/mbao/HBA_|g' $@
 
-sources/uberon-bridge-to-mba.obo:
+sources/uberon-bridge-to-mba.owl:
 	curl -o sources/uberon-bridge-to-mba.obo "https://raw.githubusercontent.com/obophenotype/uberon/master/src/ontology/bridge/uberon-bridge-to-mba.obo"
+	$(ROBOT) convert -i sources/uberon-bridge-to-mba.obo --format owl -o $@
+	sed -i 's|http://purl.obolibrary.org/obo/MBA_|https://purl.brain-bican.org/ontology/mbao/MBA_|g' $@
 
-sources/uberon-bridge-to-pba.obo:
+sources/uberon-bridge-to-pba.owl:
 	curl -o sources/uberon-bridge-to-pba.obo "https://raw.githubusercontent.com/obophenotype/uberon/master/src/ontology/bridge/uberon-bridge-to-pba.obo"
+	$(ROBOT) convert -i sources/uberon-bridge-to-pba.obo --format owl -o $@
+	sed -i 's|http://purl.obolibrary.org/obo/PBA_|https://purl.brain-bican.org/ontology/mbao/PBA_|g' $@
 
 # TODO handle legacy mapings
 
@@ -100,3 +118,46 @@ $(COMPONENTSDIR)/linkouts.owl: $(TMPDIR)/tmp.owl $(TEMPLATEDIR)/linkouts.tsv
 	$(ROBOT) template --template $(word 2, $^) --input $< --add-prefixes template_prefixes.json -o $@
 
 
+
+
+## ONTOLOGY: uberon (remove disjoint classes and properties, they are causing inconsistencies when merged with mba bridge)
+.PHONY: mirror-uberon
+.PRECIOUS: $(MIRRORDIR)/uberon.owl
+mirror-uberon: | $(TMPDIR)
+	if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I http://purl.obolibrary.org/obo/uberon/subsets/mouse-view.owl -o $@.tmp.owl &&\
+		$(ROBOT) remove -i $@.tmp.owl --axioms disjoint -o $@.tmp.owl && \
+		mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
+
+
+## Disable '--equivalent-classes-allowed asserted-only' due to MBA inconsistencies
+.PHONY: reason_test
+reason_test: $(EDIT_PREPROCESSED)
+	# $(ROBOT) explain --input $< --reasoner ELK -M unsatisfiability --unsatisfiable all --explanation explanation.md
+	# $(ROBOT) reason --input $< --reasoner ELK --equivalent-classes-allowed asserted-only \
+	# 	--exclude-tautologies structural --output test.owl && rm test.owl
+	$(ROBOT) reason --input $< --reasoner ELK \
+		--exclude-tautologies structural --output test.owl && rm test.owl
+
+## Disable '--equivalent-classes-allowed asserted-only' due to MBA inconsistencies
+# Full: The full artefacts with imports merged, reasoned.
+$(ONT)-full.owl: $(EDIT_PREPROCESSED) $(OTHER_SRC) $(IMPORT_FILES)
+	$(ROBOT_RELEASE_IMPORT_MODE) \
+		reason --reasoner ELK --exclude-tautologies structural \
+		relax \
+		reduce -r ELK \
+		$(SHARED_ROBOT_COMMANDS) annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@
+
+## Disable '--equivalent-classes-allowed asserted-only' due to MBA inconsistencies
+# foo-simple: (edit->reason,relax,reduce,drop imports, drop every axiom which contains an entity outside the "namespaces of interest")
+# drop every axiom: filter --term-file keep_terms.txt --trim true
+#	remove --select imports --trim false
+$(ONT)-simple.owl: $(EDIT_PREPROCESSED) $(OTHER_SRC) $(SIMPLESEED) $(IMPORT_FILES)
+	$(ROBOT_RELEASE_IMPORT_MODE) \
+		reason --reasoner ELK --exclude-tautologies structural \
+		relax \
+		remove --axioms equivalent \
+		relax \
+		filter --term-file $(SIMPLESEED) --select "annotations ontology anonymous self" --trim true --signature true \
+		reduce -r ELK \
+		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru \
+		$(SHARED_ROBOT_COMMANDS) annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@

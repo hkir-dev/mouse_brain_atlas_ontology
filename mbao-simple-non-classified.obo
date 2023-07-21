@@ -1,9 +1,9 @@
 format-version: 1.2
-data-version: https://purl.brain-bican.org/ontology/mbao/releases/2023-07-20/mbao-simple-non-classified.owl
+data-version: https://purl.brain-bican.org/ontology/mbao/releases/2023-07-21/mbao-simple-non-classified.owl
 ontology: https://purl.brain-bican.org/ontology/mbao/mbao-simple-non-classified.owl
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/
 property_value: http://purl.org/dc/terms/title "Mouse Brain Atlas Ontology" xsd:string
-property_value: owl:versionInfo "2023-07-20" xsd:string
+property_value: owl:versionInfo "2023-07-21" xsd:string
 
 [Term]
 id: ABA:Brain
@@ -166,7 +166,7 @@ property_value: status "Verified" xsd:string {source="https://ror.org/03cpe7c52"
 id: MBA:1009
 name: fiber tracts
 synonym: "fiber tracts" EXACT []
-relationship: part_of MBA:997 ! root
+relationship: part_of MBA:997 ! brain
 property_value: IAO:0000589 "fiber tracts" xsd:string
 property_value: prefLabel "fiber tracts" xsd:string
 property_value: status "Verified" xsd:string {source="https://orcid.org/0000-0001-7258-9596"}
@@ -300,7 +300,7 @@ property_value: status "Verified" xsd:string {source="https://ror.org/03cpe7c52"
 id: MBA:1024
 name: grooves
 synonym: "grv" EXACT []
-relationship: part_of MBA:997 ! root
+relationship: part_of MBA:997 ! brain
 property_value: IAO:0000589 "grooves" xsd:string
 property_value: prefLabel "grooves" xsd:string
 property_value: status "Verified" xsd:string {source="https://orcid.org/0000-0001-7258-9596"}
@@ -3900,7 +3900,7 @@ property_value: status "Verified" xsd:string {source="https://orcid.org/0000-000
 id: MBA:304325711
 name: retina
 synonym: "retina" EXACT []
-relationship: part_of MBA:997 ! root
+relationship: part_of MBA:997 ! brain
 property_value: IAO:0000589 "retina" xsd:string
 property_value: prefLabel "retina" xsd:string
 property_value: status "Verified" xsd:string {source="https://ror.org/03cpe7c52"}
@@ -8890,7 +8890,7 @@ property_value: prefLabel "Temporal association areas, layer 6a" xsd:string
 id: MBA:73
 name: ventricular systems
 synonym: "VS" EXACT []
-relationship: part_of MBA:997 ! root
+relationship: part_of MBA:997 ! brain
 property_value: IAO:0000589 "ventricular systems" xsd:string
 property_value: prefLabel "ventricular systems" xsd:string
 property_value: status "Verified" xsd:string {source="https://ror.org/03cpe7c52"}
@@ -9547,7 +9547,7 @@ property_value: status "Verified" xsd:string {source="https://ror.org/03cpe7c52"
 id: MBA:8
 name: Basic cell groups and regions
 synonym: "grey" EXACT []
-relationship: part_of MBA:997 ! root
+relationship: part_of MBA:997 ! brain
 property_value: IAO:0000589 "basic cell groups and regions" xsd:string
 property_value: prefLabel "Basic cell groups and regions" xsd:string
 property_value: status "Verified" xsd:string {source="https://ror.org/03cpe7c52"}
@@ -11470,7 +11470,7 @@ property_value: status "Verified" xsd:string {source="https://ror.org/03cpe7c52"
 
 [Term]
 id: MBA:997
-name: root
+name: brain
 synonym: "root" EXACT []
 relationship: part_of NCBITaxon:10090
 property_value: IAO:0000589 "root" xsd:string

@@ -1,10 +1,10 @@
 format-version: 1.2
-data-version: https://purl.brain-bican.org/ontology/mbao/releases/2023-07-20/mbao-base.owl
+data-version: https://purl.brain-bican.org/ontology/mbao/releases/2023-07-21/mbao-base.owl
 ontology: https://purl.brain-bican.org/ontology/mbao/mbao-base.owl
 property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/
 property_value: http://purl.org/dc/terms/title "Mouse Brain Atlas Ontology" xsd:string
-property_value: owl:versionInfo "2023-07-20" xsd:string
+property_value: owl:versionInfo "2023-07-21" xsd:string
 
 [Term]
 id: ABA:Brain
@@ -585,7 +585,7 @@ synonym: "fiber tracts" EXACT []
 is_a: UBERON:0000122
 intersection_of: UBERON:0000122
 intersection_of: part_of NCBITaxon:10090
-relationship: part_of MBA:997 ! root
+relationship: part_of MBA:997 ! brain
 relationship: part_of NCBITaxon:10090
 property_value: IAO:0000589 "fiber tracts" xsd:string
 property_value: prefLabel "fiber tracts" xsd:string
@@ -759,7 +759,7 @@ synonym: "grv" EXACT []
 is_a: UBERON:0013118
 intersection_of: UBERON:0013118
 intersection_of: part_of NCBITaxon:10090
-relationship: part_of MBA:997 ! root
+relationship: part_of MBA:997 ! brain
 relationship: part_of NCBITaxon:10090
 property_value: IAO:0000589 "grooves" xsd:string
 property_value: prefLabel "grooves" xsd:string
@@ -5572,7 +5572,7 @@ synonym: "retina" EXACT []
 is_a: UBERON:0000966
 intersection_of: UBERON:0000966
 intersection_of: part_of NCBITaxon:10090
-relationship: part_of MBA:997 ! root
+relationship: part_of MBA:997 ! brain
 relationship: part_of NCBITaxon:10090
 property_value: IAO:0000589 "retina" xsd:string
 property_value: prefLabel "retina" xsd:string
@@ -11886,7 +11886,7 @@ synonym: "VS" EXACT []
 is_a: UBERON:0005281
 intersection_of: UBERON:0005281
 intersection_of: part_of NCBITaxon:10090
-relationship: part_of MBA:997 ! root
+relationship: part_of MBA:997 ! brain
 relationship: part_of NCBITaxon:10090
 property_value: IAO:0000589 "ventricular systems" xsd:string
 property_value: prefLabel "ventricular systems" xsd:string
@@ -12723,7 +12723,7 @@ synonym: "grey" EXACT []
 is_a: UBERON:0000955
 intersection_of: UBERON:0000955
 intersection_of: part_of NCBITaxon:10090
-relationship: part_of MBA:997 ! root
+relationship: part_of MBA:997 ! brain
 relationship: part_of NCBITaxon:10090
 property_value: IAO:0000589 "basic cell groups and regions" xsd:string
 property_value: prefLabel "Basic cell groups and regions" xsd:string
@@ -15241,7 +15241,7 @@ property_value: status "Verified" xsd:string {source="https://ror.org/03cpe7c52"
 
 [Term]
 id: MBA:997
-name: root
+name: brain
 synonym: "root" EXACT []
 is_a: UBERON:0000955
 intersection_of: UBERON:0000955

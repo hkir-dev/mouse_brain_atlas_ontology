@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: https://purl.brain-bican.org/ontology/mbao/releases/2023-07-20/mbao.owl
+data-version: https://purl.brain-bican.org/ontology/mbao/releases/2023-07-21/mbao.owl
 subsetdef: BDS_subset ""
 subsetdef: blood_and_immune_upper_slim ""
 subsetdef: common_anatomy ""
@@ -47,7 +47,7 @@ synonymtypedef: vertebrate ""
 ontology: https://purl.brain-bican.org/ontology/mbao.owl
 property_value: dcterms-license http://creativecommons.org/licenses/by/4.0/
 property_value: http://purl.org/dc/terms/title "Mouse Brain Atlas Ontology" xsd:string
-property_value: owl:versionInfo "2023-07-20" xsd:string
+property_value: owl:versionInfo "2023-07-21" xsd:string
 
 [Term]
 id: ABA:Brain
@@ -1346,7 +1346,7 @@ is_a: MBA:ENTITY
 is_a: UBERON:0000122 ! neuron projection bundle
 intersection_of: UBERON:0000122 ! neuron projection bundle
 intersection_of: part_of NCBITaxon:10090
-relationship: part_of MBA:997 ! root
+relationship: part_of MBA:997 ! brain
 property_value: IAO:0000589 "fiber tracts" xsd:string
 property_value: prefLabel "fiber tracts" xsd:string
 property_value: status "Verified" xsd:string {source="https://orcid.org/0000-0001-7258-9596"}
@@ -1535,7 +1535,7 @@ is_a: MBA:ENTITY
 is_a: UBERON:0013118 ! sulcus of brain
 intersection_of: UBERON:0013118 ! sulcus of brain
 intersection_of: part_of NCBITaxon:10090
-relationship: part_of MBA:997 ! root
+relationship: part_of MBA:997 ! brain
 property_value: IAO:0000589 "grooves" xsd:string
 property_value: prefLabel "grooves" xsd:string
 property_value: status "Verified" xsd:string {source="https://orcid.org/0000-0001-7258-9596"}
@@ -6275,7 +6275,7 @@ is_a: MBA:ENTITY
 is_a: UBERON:0000966 ! retina
 intersection_of: UBERON:0000966 ! retina
 intersection_of: part_of NCBITaxon:10090
-relationship: part_of MBA:997 ! root
+relationship: part_of MBA:997 ! brain
 property_value: IAO:0000589 "retina" xsd:string
 property_value: prefLabel "retina" xsd:string
 property_value: status "Verified" xsd:string {source="https://ror.org/03cpe7c52"}
@@ -12667,7 +12667,7 @@ is_a: MBA:ENTITY
 is_a: UBERON:0005281 ! ventricular system of central nervous system
 intersection_of: UBERON:0005281 ! ventricular system of central nervous system
 intersection_of: part_of NCBITaxon:10090
-relationship: part_of MBA:997 ! root
+relationship: part_of MBA:997 ! brain
 property_value: IAO:0000589 "ventricular systems" xsd:string
 property_value: prefLabel "ventricular systems" xsd:string
 property_value: status "Verified" xsd:string {source="https://ror.org/03cpe7c52"}
@@ -13500,7 +13500,7 @@ is_a: MBA:ENTITY
 is_a: UBERON:0000955 ! brain
 intersection_of: UBERON:0000955 ! brain
 intersection_of: part_of NCBITaxon:10090
-relationship: part_of MBA:997 ! root
+relationship: part_of MBA:997 ! brain
 property_value: IAO:0000589 "basic cell groups and regions" xsd:string
 property_value: prefLabel "Basic cell groups and regions" xsd:string
 property_value: status "Verified" xsd:string {source="https://ror.org/03cpe7c52"}
@@ -16074,7 +16074,7 @@ property_value: status "Verified" xsd:string {source="https://ror.org/03cpe7c52"
 
 [Term]
 id: MBA:997
-name: root
+name: brain
 synonym: "root" EXACT []
 is_a: ABA:ENTITY ! ABA entity
 is_a: MBA:ENTITY

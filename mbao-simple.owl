@@ -15,10 +15,10 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:uberon-bridge-to-mba="http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-mba#">
     <owl:Ontology rdf:about="https://purl.brain-bican.org/ontology/mbao/mbao-simple.owl">
-        <owl:versionIRI rdf:resource="https://purl.brain-bican.org/ontology/mbao/releases/2023-07-20/mbao-simple.owl"/>
+        <owl:versionIRI rdf:resource="https://purl.brain-bican.org/ontology/mbao/releases/2023-07-21/mbao-simple.owl"/>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <terms:title>Mouse Brain Atlas Ontology</terms:title>
-        <owl:versionInfo>2023-07-20</owl:versionInfo>
+        <owl:versionInfo>2023-07-21</owl:versionInfo>
     </owl:Ontology>
     
 

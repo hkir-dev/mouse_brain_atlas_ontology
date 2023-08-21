@@ -10,9 +10,9 @@
         "val" : "Mouse Brain Atlas Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2023-07-21"
+        "val" : "2023-08-21"
       } ],
-      "version" : "https://purl.brain-bican.org/ontology/mbao/releases/2023-07-21/mbao-simple-non-classified.json"
+      "version" : "https://purl.brain-bican.org/ontology/mbao/releases/2023-08-21/mbao-simple-non-classified.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -168,14 +168,6 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
           "val" : "cerebellar Golgi cell"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/CL_0000120",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "granule cell"
         } ]
       }
     }, {
@@ -627,6 +619,14 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0001033",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "hippocampal granule cell"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/CL_0002077",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -731,6 +731,14 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_2000089",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "dentate gyrus granule cell"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000122",
       "lbl" : "example of usage",
       "type" : "PROPERTY",
@@ -744,6 +752,263 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
           "val" : "example_of_usage"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_1",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "root"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_10066",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "Muridae"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_10088",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "Mus <genus>"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_10090",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "Mus musculus"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_117570",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "Teleostomi"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_117571",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "Euteleostomi"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_131567",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "cellular organisms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_1338369",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "Dipnotetrapodomorpha"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_1437010",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "Boreoeutheria"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_1963758",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "Myomorpha"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "Eukaryota"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_314146",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "Euarchontoglires"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_314147",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "Glires"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_32523",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "Tetrapoda"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_32524",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "Amniota"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_32525",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "Theria <mammals>"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "Opisthokonta"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "Metazoa"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_33213",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "Bilateria"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_33511",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "Deuterostomia"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_337687",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "Muroidea"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_39107",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "Murinae"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_40674",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "Mammalia"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_6072",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "Eumetazoa"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_7711",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "Chordata"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_7742",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "Vertebrata <vertebrates>"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_7776",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "Gnathostomata <vertebrates>"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_8287",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "Sarcopterygii"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_862507",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "Mus <subgenus>"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_89593",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "Craniata <chordates>"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_9347",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "Eutheria"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_9989",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "Rodentia"
         } ]
       }
     }, {
@@ -37793,7 +38058,7 @@
           "val" : "Verified"
         }, {
           "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
-          "val" : "root"
+          "val" : "brain"
         } ]
       }
     }, {

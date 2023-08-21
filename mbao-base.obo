@@ -1,10 +1,10 @@
 format-version: 1.2
-data-version: https://purl.brain-bican.org/ontology/mbao/releases/2023-07-21/mbao-base.owl
+data-version: https://purl.brain-bican.org/ontology/mbao/releases/2023-08-21/mbao-base.owl
 ontology: https://purl.brain-bican.org/ontology/mbao/mbao-base.owl
 property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/
 property_value: http://purl.org/dc/terms/title "Mouse Brain Atlas Ontology" xsd:string
-property_value: owl:versionInfo "2023-07-21" xsd:string
+property_value: owl:versionInfo "2023-08-21" xsd:string
 
 [Term]
 id: ABA:Brain
@@ -159,10 +159,6 @@ property_value: prefLabel "basket cell" xsd:string
 [Term]
 id: CL:0000119
 property_value: prefLabel "cerebellar Golgi cell" xsd:string
-
-[Term]
-id: CL:0000120
-property_value: prefLabel "granule cell" xsd:string
 
 [Term]
 id: CL:0000121
@@ -389,6 +385,10 @@ id: CL:0001031
 property_value: prefLabel "cerebellar granule cell" xsd:string
 
 [Term]
+id: CL:0001033
+property_value: prefLabel "hippocampal granule cell" xsd:string
+
+[Term]
 id: CL:0002077
 property_value: prefLabel "ecto-epithelial cell" xsd:string
 
@@ -439,6 +439,10 @@ property_value: prefLabel "visceral muscle cell" xsd:string
 [Term]
 id: CL:0008019
 property_value: prefLabel "mesenchymal cell" xsd:string
+
+[Term]
+id: CL:2000089
+property_value: prefLabel "dentate gyrus granule cell" xsd:string
 
 [Term]
 id: MBA:1
@@ -15248,7 +15252,7 @@ intersection_of: UBERON:0000955
 intersection_of: part_of NCBITaxon:10090
 relationship: part_of NCBITaxon:10090
 property_value: IAO:0000589 "root" xsd:string
-property_value: prefLabel "root" xsd:string
+property_value: prefLabel "brain" xsd:string
 property_value: status "Verified" xsd:string {source="https://ror.org/03cpe7c52"}
 
 [Term]
@@ -15283,6 +15287,134 @@ intersection_of: part_of NCBITaxon:10090
 relationship: part_of NCBITaxon:10090
 property_value: IAO:0000589 "MBA entity" xsd:string
 property_value: status "Verified" xsd:string {source="https://ror.org/03cpe7c52"}
+
+[Term]
+id: NCBITaxon:1
+property_value: prefLabel "root" xsd:string
+
+[Term]
+id: NCBITaxon:10066
+property_value: prefLabel "Muridae" xsd:string
+
+[Term]
+id: NCBITaxon:10088
+property_value: prefLabel "Mus <genus>" xsd:string
+
+[Term]
+id: NCBITaxon:10090
+property_value: prefLabel "Mus musculus" xsd:string
+
+[Term]
+id: NCBITaxon:117570
+property_value: prefLabel "Teleostomi" xsd:string
+
+[Term]
+id: NCBITaxon:117571
+property_value: prefLabel "Euteleostomi" xsd:string
+
+[Term]
+id: NCBITaxon:131567
+property_value: prefLabel "cellular organisms" xsd:string
+
+[Term]
+id: NCBITaxon:1338369
+property_value: prefLabel "Dipnotetrapodomorpha" xsd:string
+
+[Term]
+id: NCBITaxon:1437010
+property_value: prefLabel "Boreoeutheria" xsd:string
+
+[Term]
+id: NCBITaxon:1963758
+property_value: prefLabel "Myomorpha" xsd:string
+
+[Term]
+id: NCBITaxon:2759
+property_value: prefLabel "Eukaryota" xsd:string
+
+[Term]
+id: NCBITaxon:314146
+property_value: prefLabel "Euarchontoglires" xsd:string
+
+[Term]
+id: NCBITaxon:314147
+property_value: prefLabel "Glires" xsd:string
+
+[Term]
+id: NCBITaxon:32523
+property_value: prefLabel "Tetrapoda" xsd:string
+
+[Term]
+id: NCBITaxon:32524
+property_value: prefLabel "Amniota" xsd:string
+
+[Term]
+id: NCBITaxon:32525
+property_value: prefLabel "Theria <mammals>" xsd:string
+
+[Term]
+id: NCBITaxon:33154
+property_value: prefLabel "Opisthokonta" xsd:string
+
+[Term]
+id: NCBITaxon:33208
+property_value: prefLabel "Metazoa" xsd:string
+
+[Term]
+id: NCBITaxon:33213
+property_value: prefLabel "Bilateria" xsd:string
+
+[Term]
+id: NCBITaxon:33511
+property_value: prefLabel "Deuterostomia" xsd:string
+
+[Term]
+id: NCBITaxon:337687
+property_value: prefLabel "Muroidea" xsd:string
+
+[Term]
+id: NCBITaxon:39107
+property_value: prefLabel "Murinae" xsd:string
+
+[Term]
+id: NCBITaxon:40674
+property_value: prefLabel "Mammalia" xsd:string
+
+[Term]
+id: NCBITaxon:6072
+property_value: prefLabel "Eumetazoa" xsd:string
+
+[Term]
+id: NCBITaxon:7711
+property_value: prefLabel "Chordata" xsd:string
+
+[Term]
+id: NCBITaxon:7742
+property_value: prefLabel "Vertebrata <vertebrates>" xsd:string
+
+[Term]
+id: NCBITaxon:7776
+property_value: prefLabel "Gnathostomata <vertebrates>" xsd:string
+
+[Term]
+id: NCBITaxon:8287
+property_value: prefLabel "Sarcopterygii" xsd:string
+
+[Term]
+id: NCBITaxon:862507
+property_value: prefLabel "Mus <subgenus>" xsd:string
+
+[Term]
+id: NCBITaxon:89593
+property_value: prefLabel "Craniata <chordates>" xsd:string
+
+[Term]
+id: NCBITaxon:9347
+property_value: prefLabel "Eutheria" xsd:string
+
+[Term]
+id: NCBITaxon:9989
+property_value: prefLabel "Rodentia" xsd:string
 
 [Term]
 id: UBERON:0000000

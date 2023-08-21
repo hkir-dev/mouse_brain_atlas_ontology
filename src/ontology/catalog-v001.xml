@@ -5,6 +5,9 @@
   
   <uri name="https://purl.brain-bican.org/ontology/mbao/imports/uberon_import.owl" uri="imports/uberon_import.owl"/>
   <uri name="https://purl.brain-bican.org/ontology/mbao/imports/uberon_import.obo" uri="imports/uberon_import.obo"/>
+
+  <uri name="https://purl.brain-bican.org/ontology/mbao/imports/uberon_import.owl" uri="imports/ncbitaxon_import.owl"/>
+  <uri name="https://purl.brain-bican.org/ontology/mbao/imports/uberon_import.obo" uri="imports/ncbitaxon_import.obo"/>
   
   <uri name="https://purl.brain-bican.org/ontology/mbao/imports/mba_uberon_bridge_import.owl" uri="imports/mba_uberon_bridge_import.owl"/>
   <uri name="https://purl.brain-bican.org/ontology/mbao/imports/mba_uberon_bridge_import.obo" uri="imports/mba_uberon_bridge_import.obo"/>

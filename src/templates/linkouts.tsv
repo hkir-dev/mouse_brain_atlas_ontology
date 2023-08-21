@@ -18,7 +18,6 @@ http://purl.obolibrary.org/obo/CL_0000108		cholinergic neuron
 http://purl.obolibrary.org/obo/CL_0000115		endothelial cell
 http://purl.obolibrary.org/obo/CL_0000118		basket cell
 http://purl.obolibrary.org/obo/CL_0000119		cerebellar Golgi cell
-http://purl.obolibrary.org/obo/CL_0000120		granule cell
 http://purl.obolibrary.org/obo/CL_0000121		Purkinje cell
 http://purl.obolibrary.org/obo/CL_0000122		stellate neuron
 http://purl.obolibrary.org/obo/CL_0000125		glial cell
@@ -75,6 +74,7 @@ http://purl.obolibrary.org/obo/CL_0000740		retinal ganglion cell
 http://purl.obolibrary.org/obo/CL_0000853		olfactory epithelial supporting cell
 http://purl.obolibrary.org/obo/CL_0000988		hematopoietic cell
 http://purl.obolibrary.org/obo/CL_0001031		cerebellar granule cell
+http://purl.obolibrary.org/obo/CL_0001033		hippocampal granule cell
 http://purl.obolibrary.org/obo/CL_0002077		ecto-epithelial cell
 http://purl.obolibrary.org/obo/CL_0002169		basal cell of olfactory epithelium
 http://purl.obolibrary.org/obo/CL_0002220		interstitial cell of pineal gland
@@ -88,6 +88,39 @@ http://purl.obolibrary.org/obo/CL_0007001		skeletogenic cell
 http://purl.obolibrary.org/obo/CL_0008002		skeletal muscle fiber
 http://purl.obolibrary.org/obo/CL_0008007		visceral muscle cell
 http://purl.obolibrary.org/obo/CL_0008019		mesenchymal cell
+http://purl.obolibrary.org/obo/CL_2000089		dentate gyrus granule cell
+http://purl.obolibrary.org/obo/NCBITaxon_1		root
+http://purl.obolibrary.org/obo/NCBITaxon_10066		Muridae
+http://purl.obolibrary.org/obo/NCBITaxon_10088		Mus <genus>
+http://purl.obolibrary.org/obo/NCBITaxon_10090		Mus musculus
+http://purl.obolibrary.org/obo/NCBITaxon_117570		Teleostomi
+http://purl.obolibrary.org/obo/NCBITaxon_117571		Euteleostomi
+http://purl.obolibrary.org/obo/NCBITaxon_131567		cellular organisms
+http://purl.obolibrary.org/obo/NCBITaxon_1338369		Dipnotetrapodomorpha
+http://purl.obolibrary.org/obo/NCBITaxon_1437010		Boreoeutheria
+http://purl.obolibrary.org/obo/NCBITaxon_1963758		Myomorpha
+http://purl.obolibrary.org/obo/NCBITaxon_2759		Eukaryota
+http://purl.obolibrary.org/obo/NCBITaxon_314146		Euarchontoglires
+http://purl.obolibrary.org/obo/NCBITaxon_314147		Glires
+http://purl.obolibrary.org/obo/NCBITaxon_32523		Tetrapoda
+http://purl.obolibrary.org/obo/NCBITaxon_32524		Amniota
+http://purl.obolibrary.org/obo/NCBITaxon_32525		Theria <mammals>
+http://purl.obolibrary.org/obo/NCBITaxon_33154		Opisthokonta
+http://purl.obolibrary.org/obo/NCBITaxon_33208		Metazoa
+http://purl.obolibrary.org/obo/NCBITaxon_33213		Bilateria
+http://purl.obolibrary.org/obo/NCBITaxon_33511		Deuterostomia
+http://purl.obolibrary.org/obo/NCBITaxon_337687		Muroidea
+http://purl.obolibrary.org/obo/NCBITaxon_39107		Murinae
+http://purl.obolibrary.org/obo/NCBITaxon_40674		Mammalia
+http://purl.obolibrary.org/obo/NCBITaxon_6072		Eumetazoa
+http://purl.obolibrary.org/obo/NCBITaxon_7711		Chordata
+http://purl.obolibrary.org/obo/NCBITaxon_7742		Vertebrata <vertebrates>
+http://purl.obolibrary.org/obo/NCBITaxon_7776		Gnathostomata <vertebrates>
+http://purl.obolibrary.org/obo/NCBITaxon_8287		Sarcopterygii
+http://purl.obolibrary.org/obo/NCBITaxon_862507		Mus <subgenus>
+http://purl.obolibrary.org/obo/NCBITaxon_89593		Craniata <chordates>
+http://purl.obolibrary.org/obo/NCBITaxon_9347		Eutheria
+http://purl.obolibrary.org/obo/NCBITaxon_9989		Rodentia
 http://purl.obolibrary.org/obo/UBERON_0000000		processual entity
 http://purl.obolibrary.org/obo/UBERON_0000004		nose
 http://purl.obolibrary.org/obo/UBERON_0000005		chemosensory organ
@@ -2890,6 +2923,6 @@ https://purl.brain-bican.org/ontology/mbao/MBA_993		Secondary motor area
 https://purl.brain-bican.org/ontology/mbao/MBA_994		corticobulbar tract
 https://purl.brain-bican.org/ontology/mbao/MBA_995		Paramedian reticular nucleus
 https://purl.brain-bican.org/ontology/mbao/MBA_996		Agranular insular area, dorsal part, layer 1
-https://purl.brain-bican.org/ontology/mbao/MBA_997		root
+https://purl.brain-bican.org/ontology/mbao/MBA_997		brain
 https://purl.brain-bican.org/ontology/mbao/MBA_998		Fundus of striatum
 https://purl.brain-bican.org/ontology/mbao/MBA_999		Entorhinal area, lateral part, layer 2/3

@@ -1,9 +1,9 @@
 format-version: 1.2
-data-version: https://purl.brain-bican.org/ontology/mbao/releases/2023-07-21/mbao-simple-non-classified.owl
+data-version: https://purl.brain-bican.org/ontology/mbao/releases/2023-08-21/mbao-simple-non-classified.owl
 ontology: https://purl.brain-bican.org/ontology/mbao/mbao-simple-non-classified.owl
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/
 property_value: http://purl.org/dc/terms/title "Mouse Brain Atlas Ontology" xsd:string
-property_value: owl:versionInfo "2023-07-21" xsd:string
+property_value: owl:versionInfo "2023-08-21" xsd:string
 
 [Term]
 id: ABA:Brain
@@ -11474,7 +11474,7 @@ name: brain
 synonym: "root" EXACT []
 relationship: part_of NCBITaxon:10090
 property_value: IAO:0000589 "root" xsd:string
-property_value: prefLabel "root" xsd:string
+property_value: prefLabel "brain" xsd:string
 property_value: status "Verified" xsd:string {source="https://ror.org/03cpe7c52"}
 
 [Term]
@@ -11500,6 +11500,10 @@ id: MBA:ENTITY
 relationship: part_of NCBITaxon:10090
 property_value: IAO:0000589 "MBA entity" xsd:string
 property_value: status "Verified" xsd:string {source="https://ror.org/03cpe7c52"}
+
+[Term]
+id: NCBITaxon:10090
+property_value: prefLabel "Mus musculus" xsd:string
 
 [Term]
 id: UBERON:0000411

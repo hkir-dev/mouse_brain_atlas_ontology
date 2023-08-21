@@ -15,10 +15,10 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:uberon-bridge-to-mba="http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-mba#">
     <owl:Ontology rdf:about="https://purl.brain-bican.org/ontology/mbao/mbao-simple-non-classified.owl">
-        <owl:versionIRI rdf:resource="https://purl.brain-bican.org/ontology/mbao/releases/2023-07-21/mbao-simple-non-classified.owl"/>
+        <owl:versionIRI rdf:resource="https://purl.brain-bican.org/ontology/mbao/releases/2023-08-21/mbao-simple-non-classified.owl"/>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <terms:title>Mouse Brain Atlas Ontology</terms:title>
-        <owl:versionInfo>2023-07-21</owl:versionInfo>
+        <owl:versionInfo>2023-08-21</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -389,7 +389,9 @@
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_10090 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10090">
+        <skos:prefLabel>Mus musculus</skos:prefLabel>
+    </owl:Class>
     
 
 
@@ -31673,7 +31675,7 @@
         <oboInOwl:hasExactSynonym>root</oboInOwl:hasExactSynonym>
         <oboInOwl:id>MBA:997</oboInOwl:id>
         <rdfs:label>brain</rdfs:label>
-        <skos:prefLabel>root</skos:prefLabel>
+        <skos:prefLabel>brain</skos:prefLabel>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://purl.brain-bican.org/ontology/mbao/MBA_997"/>
@@ -31817,9 +31819,6 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000119">
         <skos:prefLabel>cerebellar Golgi cell</skos:prefLabel>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000120">
-        <skos:prefLabel>granule cell</skos:prefLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000121">
         <skos:prefLabel>Purkinje cell</skos:prefLabel>
@@ -31989,6 +31988,9 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0001031">
         <skos:prefLabel>cerebellar granule cell</skos:prefLabel>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0001033">
+        <skos:prefLabel>hippocampal granule cell</skos:prefLabel>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0002077">
         <skos:prefLabel>ecto-epithelial cell</skos:prefLabel>
     </rdf:Description>
@@ -32027,6 +32029,102 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0008019">
         <skos:prefLabel>mesenchymal cell</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_2000089">
+        <skos:prefLabel>dentate gyrus granule cell</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1">
+        <skos:prefLabel>root</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10066">
+        <skos:prefLabel>Muridae</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10088">
+        <skos:prefLabel>Mus &lt;genus&gt;</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_117570">
+        <skos:prefLabel>Teleostomi</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_117571">
+        <skos:prefLabel>Euteleostomi</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_131567">
+        <skos:prefLabel>cellular organisms</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1338369">
+        <skos:prefLabel>Dipnotetrapodomorpha</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1437010">
+        <skos:prefLabel>Boreoeutheria</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1963758">
+        <skos:prefLabel>Myomorpha</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2759">
+        <skos:prefLabel>Eukaryota</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_314146">
+        <skos:prefLabel>Euarchontoglires</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_314147">
+        <skos:prefLabel>Glires</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_32523">
+        <skos:prefLabel>Tetrapoda</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_32524">
+        <skos:prefLabel>Amniota</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_32525">
+        <skos:prefLabel>Theria &lt;mammals&gt;</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33154">
+        <skos:prefLabel>Opisthokonta</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33208">
+        <skos:prefLabel>Metazoa</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33213">
+        <skos:prefLabel>Bilateria</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33511">
+        <skos:prefLabel>Deuterostomia</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_337687">
+        <skos:prefLabel>Muroidea</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_39107">
+        <skos:prefLabel>Murinae</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_40674">
+        <skos:prefLabel>Mammalia</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_6072">
+        <skos:prefLabel>Eumetazoa</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7711">
+        <skos:prefLabel>Chordata</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7742">
+        <skos:prefLabel>Vertebrata &lt;vertebrates&gt;</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_7776">
+        <skos:prefLabel>Gnathostomata &lt;vertebrates&gt;</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8287">
+        <skos:prefLabel>Sarcopterygii</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_862507">
+        <skos:prefLabel>Mus &lt;subgenus&gt;</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_89593">
+        <skos:prefLabel>Craniata &lt;chordates&gt;</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9347">
+        <skos:prefLabel>Eutheria</skos:prefLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9989">
+        <skos:prefLabel>Rodentia</skos:prefLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000000">
         <skos:prefLabel>processual entity</skos:prefLabel>

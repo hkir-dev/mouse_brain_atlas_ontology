@@ -2,9 +2,9 @@
 ![Build Status](https://github.com/hkir-dev/mouse_brain_atlas_ontology/workflows/CI/badge.svg)
 # Mouse Brain Atlas Ontology
 
-Description: None
+This repository contains an application ontology built by combining ontologised versions of the Allen Institute Mouse Brain Atlas (MBA) StructureGraph mapped to Uberon. 
 
-More information can be found at http://obofoundry.org/ontology/mbao
+More information can be found at https://hkir-dev.github.io/mouse_brain_atlas_ontology/
 
 ## Versions
 

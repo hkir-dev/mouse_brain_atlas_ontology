@@ -10,9 +10,9 @@
         "val" : "Mouse Brain Atlas Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2023-08-21"
+        "val" : "2023-08-23"
       } ],
-      "version" : "https://purl.brain-bican.org/ontology/mbao/releases/2023-08-21/mbao-simple-non-classified.json"
+      "version" : "https://purl.brain-bican.org/ontology/mbao/releases/2023-08-23/mbao-simple-non-classified.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -13130,7 +13130,7 @@
         } ]
       }
     }, {
-      "id" : "https://purl.brain-bican.org/ontology/mbao/ABA_Brain",
+      "id" : "https://purl.brain-bican.org/ontology/abao/ABA_Brain",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -13139,7 +13139,7 @@
         } ]
       }
     }, {
-      "id" : "https://purl.brain-bican.org/ontology/mbao/ABA_CTX1",
+      "id" : "https://purl.brain-bican.org/ontology/abao/ABA_CTX1",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -13148,7 +13148,7 @@
         } ]
       }
     }, {
-      "id" : "https://purl.brain-bican.org/ontology/mbao/ABA_CTX1-6b",
+      "id" : "https://purl.brain-bican.org/ontology/abao/ABA_CTX1-6b",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -13157,7 +13157,7 @@
         } ]
       }
     }, {
-      "id" : "https://purl.brain-bican.org/ontology/mbao/ABA_CTX2",
+      "id" : "https://purl.brain-bican.org/ontology/abao/ABA_CTX2",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -13166,7 +13166,7 @@
         } ]
       }
     }, {
-      "id" : "https://purl.brain-bican.org/ontology/mbao/ABA_CTX3",
+      "id" : "https://purl.brain-bican.org/ontology/abao/ABA_CTX3",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -13175,7 +13175,7 @@
         } ]
       }
     }, {
-      "id" : "https://purl.brain-bican.org/ontology/mbao/ABA_CTX4",
+      "id" : "https://purl.brain-bican.org/ontology/abao/ABA_CTX4",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -13184,7 +13184,7 @@
         } ]
       }
     }, {
-      "id" : "https://purl.brain-bican.org/ontology/mbao/ABA_CTX5",
+      "id" : "https://purl.brain-bican.org/ontology/abao/ABA_CTX5",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -13193,7 +13193,7 @@
         } ]
       }
     }, {
-      "id" : "https://purl.brain-bican.org/ontology/mbao/ABA_CTX6",
+      "id" : "https://purl.brain-bican.org/ontology/abao/ABA_CTX6",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -13202,7 +13202,7 @@
         } ]
       }
     }, {
-      "id" : "https://purl.brain-bican.org/ontology/mbao/ABA_ENTITY",
+      "id" : "https://purl.brain-bican.org/ontology/abao/ABA_ENTITY",
       "lbl" : "ABA entity",
       "type" : "CLASS",
       "meta" : {
@@ -13212,12 +13212,20 @@
         } ]
       }
     }, {
-      "id" : "https://purl.brain-bican.org/ontology/mbao/ABA_SNI",
+      "id" : "https://purl.brain-bican.org/ontology/abao/ABA_SNI",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000589",
           "val" : "substantia nigra pars lateralis (ABA)"
+        } ]
+      }
+    }, {
+      "id" : "https://purl.brain-bican.org/ontology/mbao/ABA_ENTITY",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "ABA entity"
         } ]
       }
     }, {
@@ -38115,47 +38123,47 @@
       }
     } ],
     "edges" : [ {
-      "sub" : "https://purl.brain-bican.org/ontology/mbao/ABA_Brain",
+      "sub" : "https://purl.brain-bican.org/ontology/abao/ABA_Brain",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
     }, {
-      "sub" : "https://purl.brain-bican.org/ontology/mbao/ABA_CTX1",
+      "sub" : "https://purl.brain-bican.org/ontology/abao/ABA_CTX1",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
     }, {
-      "sub" : "https://purl.brain-bican.org/ontology/mbao/ABA_CTX1-6b",
+      "sub" : "https://purl.brain-bican.org/ontology/abao/ABA_CTX1-6b",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
     }, {
-      "sub" : "https://purl.brain-bican.org/ontology/mbao/ABA_CTX2",
+      "sub" : "https://purl.brain-bican.org/ontology/abao/ABA_CTX2",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
     }, {
-      "sub" : "https://purl.brain-bican.org/ontology/mbao/ABA_CTX3",
+      "sub" : "https://purl.brain-bican.org/ontology/abao/ABA_CTX3",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
     }, {
-      "sub" : "https://purl.brain-bican.org/ontology/mbao/ABA_CTX4",
+      "sub" : "https://purl.brain-bican.org/ontology/abao/ABA_CTX4",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
     }, {
-      "sub" : "https://purl.brain-bican.org/ontology/mbao/ABA_CTX5",
+      "sub" : "https://purl.brain-bican.org/ontology/abao/ABA_CTX5",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
     }, {
-      "sub" : "https://purl.brain-bican.org/ontology/mbao/ABA_CTX6",
+      "sub" : "https://purl.brain-bican.org/ontology/abao/ABA_CTX6",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
     }, {
-      "sub" : "https://purl.brain-bican.org/ontology/mbao/ABA_ENTITY",
+      "sub" : "https://purl.brain-bican.org/ontology/abao/ABA_ENTITY",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
     }, {
-      "sub" : "https://purl.brain-bican.org/ontology/mbao/ABA_ENTITY",
+      "sub" : "https://purl.brain-bican.org/ontology/abao/ABA_ENTITY",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002160",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
     }, {
-      "sub" : "https://purl.brain-bican.org/ontology/mbao/ABA_SNI",
+      "sub" : "https://purl.brain-bican.org/ontology/abao/ABA_SNI",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
     }, {

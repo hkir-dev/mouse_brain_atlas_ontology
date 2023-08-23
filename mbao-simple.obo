@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: https://purl.brain-bican.org/ontology/mbao/releases/2023-08-21/mbao-simple.owl
+data-version: https://purl.brain-bican.org/ontology/mbao/releases/2023-08-23/mbao-simple.owl
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_annotation_extension ""
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_gp2term ""
 subsetdef: http://purl.obolibrary.org/obo/valid_for_go_ontology ""
@@ -7,7 +7,7 @@ subsetdef: http://purl.obolibrary.org/obo/valid_for_gocam ""
 ontology: https://purl.brain-bican.org/ontology/mbao/mbao-simple.owl
 property_value: dcterms-license http://creativecommons.org/licenses/by/4.0/
 property_value: http://purl.org/dc/terms/title "Mouse Brain Atlas Ontology" xsd:string
-property_value: owl:versionInfo "2023-08-21" xsd:string
+property_value: owl:versionInfo "2023-08-23" xsd:string
 
 [Typedef]
 id: dc-contributor

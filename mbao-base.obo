@@ -1,10 +1,10 @@
 format-version: 1.2
-data-version: https://purl.brain-bican.org/ontology/mbao/releases/2023-08-21/mbao-base.owl
+data-version: https://purl.brain-bican.org/ontology/mbao/releases/2023-08-23/mbao-base.owl
 ontology: https://purl.brain-bican.org/ontology/mbao/mbao-base.owl
 property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/
 property_value: http://purl.org/dc/terms/title "Mouse Brain Atlas Ontology" xsd:string
-property_value: owl:versionInfo "2023-08-21" xsd:string
+property_value: owl:versionInfo "2023-08-23" xsd:string
 
 [Term]
 id: ABA:Brain
@@ -78,6 +78,7 @@ intersection_of: UBERON:0001062
 intersection_of: part_of NCBITaxon:10090
 relationship: only_in_taxon NCBITaxon:10090
 relationship: part_of NCBITaxon:10090
+property_value: prefLabel "ABA entity" xsd:string
 property_value: prefLabel "ABA entity" xsd:string
 
 [Term]

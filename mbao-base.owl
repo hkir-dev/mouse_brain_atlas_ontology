@@ -15,11 +15,11 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:uberon-bridge-to-mba="http://purl.obolibrary.org/obo/uberon/bridge/uberon-bridge-to-mba#">
     <owl:Ontology rdf:about="https://purl.brain-bican.org/ontology/mbao/mbao-base.owl">
-        <owl:versionIRI rdf:resource="https://purl.brain-bican.org/ontology/mbao/releases/2023-08-21/mbao-base.owl"/>
+        <owl:versionIRI rdf:resource="https://purl.brain-bican.org/ontology/mbao/releases/2023-08-23/mbao-base.owl"/>
         <dc:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <terms:title>Mouse Brain Atlas Ontology</terms:title>
-        <owl:versionInfo>2023-08-21</owl:versionInfo>
+        <owl:versionInfo>2023-08-23</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -13181,9 +13181,9 @@
     
 
 
-    <!-- https://purl.brain-bican.org/ontology/mbao/ABA_Brain -->
+    <!-- https://purl.brain-bican.org/ontology/abao/ABA_Brain -->
 
-    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/mbao/ABA_Brain">
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/abao/ABA_Brain">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -13208,9 +13208,9 @@
     
 
 
-    <!-- https://purl.brain-bican.org/ontology/mbao/ABA_CTX1 -->
+    <!-- https://purl.brain-bican.org/ontology/abao/ABA_CTX1 -->
 
-    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/mbao/ABA_CTX1">
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/abao/ABA_CTX1">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -13235,9 +13235,9 @@
     
 
 
-    <!-- https://purl.brain-bican.org/ontology/mbao/ABA_CTX1-6b -->
+    <!-- https://purl.brain-bican.org/ontology/abao/ABA_CTX1-6b -->
 
-    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/mbao/ABA_CTX1-6b">
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/abao/ABA_CTX1-6b">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -13262,9 +13262,9 @@
     
 
 
-    <!-- https://purl.brain-bican.org/ontology/mbao/ABA_CTX2 -->
+    <!-- https://purl.brain-bican.org/ontology/abao/ABA_CTX2 -->
 
-    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/mbao/ABA_CTX2">
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/abao/ABA_CTX2">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -13289,9 +13289,9 @@
     
 
 
-    <!-- https://purl.brain-bican.org/ontology/mbao/ABA_CTX3 -->
+    <!-- https://purl.brain-bican.org/ontology/abao/ABA_CTX3 -->
 
-    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/mbao/ABA_CTX3">
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/abao/ABA_CTX3">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -13316,9 +13316,9 @@
     
 
 
-    <!-- https://purl.brain-bican.org/ontology/mbao/ABA_CTX4 -->
+    <!-- https://purl.brain-bican.org/ontology/abao/ABA_CTX4 -->
 
-    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/mbao/ABA_CTX4">
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/abao/ABA_CTX4">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -13343,9 +13343,9 @@
     
 
 
-    <!-- https://purl.brain-bican.org/ontology/mbao/ABA_CTX5 -->
+    <!-- https://purl.brain-bican.org/ontology/abao/ABA_CTX5 -->
 
-    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/mbao/ABA_CTX5">
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/abao/ABA_CTX5">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -13370,9 +13370,9 @@
     
 
 
-    <!-- https://purl.brain-bican.org/ontology/mbao/ABA_CTX6 -->
+    <!-- https://purl.brain-bican.org/ontology/abao/ABA_CTX6 -->
 
-    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/mbao/ABA_CTX6">
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/abao/ABA_CTX6">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -13397,9 +13397,9 @@
     
 
 
-    <!-- https://purl.brain-bican.org/ontology/mbao/ABA_ENTITY -->
+    <!-- https://purl.brain-bican.org/ontology/abao/ABA_ENTITY -->
 
-    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/mbao/ABA_ENTITY">
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/abao/ABA_ENTITY">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -13431,9 +13431,9 @@
     
 
 
-    <!-- https://purl.brain-bican.org/ontology/mbao/ABA_SNI -->
+    <!-- https://purl.brain-bican.org/ontology/abao/ABA_SNI -->
 
-    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/mbao/ABA_SNI">
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/abao/ABA_SNI">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -13454,6 +13454,14 @@
         </rdfs:subClassOf>
         <obo:IAO_0000589>substantia nigra pars lateralis (ABA)</obo:IAO_0000589>
         <oboInOwl:id>ABA:SNI</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.brain-bican.org/ontology/mbao/ABA_ENTITY -->
+
+    <owl:Class rdf:about="https://purl.brain-bican.org/ontology/mbao/ABA_ENTITY">
+        <skos:prefLabel>ABA entity</skos:prefLabel>
     </owl:Class>
     
 

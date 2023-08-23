@@ -1598,6 +1598,7 @@ http://purl.obolibrary.org/obo/UBERON_8440075		gustatory cortex
 http://purl.obolibrary.org/obo/UBERON_8440076		somatomotor area
 http://purl.obolibrary.org/obo/UBERON_8440077		rhinal incisure
 http://purl.obolibrary.org/obo/UBERON_8600004		visceral muscle tissue
+https://purl.brain-bican.org/ontology/abao/ABA_ENTITY		ABA entity
 https://purl.brain-bican.org/ontology/mbao/ABA_ENTITY		ABA entity
 https://purl.brain-bican.org/ontology/mbao/MBA_1		Tuberomammillary nucleus, ventral part
 https://purl.brain-bican.org/ontology/mbao/MBA_10		Superior colliculus, motor related, intermediate gray layer

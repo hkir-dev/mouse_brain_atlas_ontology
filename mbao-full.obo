@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: https://purl.brain-bican.org/ontology/mbao/releases/2023-08-21/mbao-full.owl
+data-version: https://purl.brain-bican.org/ontology/mbao/releases/2023-08-23/mbao-full.owl
 subsetdef: BDS_subset ""
 subsetdef: blood_and_immune_upper_slim ""
 subsetdef: common_anatomy ""
@@ -54,7 +54,7 @@ synonymtypedef: vertebrate ""
 ontology: https://purl.brain-bican.org/ontology/mbao/mbao-full.owl
 property_value: dcterms-license http://creativecommons.org/licenses/by/4.0/
 property_value: http://purl.org/dc/terms/title "Mouse Brain Atlas Ontology" xsd:string
-property_value: owl:versionInfo "2023-08-21" xsd:string
+property_value: owl:versionInfo "2023-08-23" xsd:string
 
 [Term]
 id: ABA:Brain
@@ -130,6 +130,7 @@ intersection_of: UBERON:0001062 ! anatomical entity
 intersection_of: part_of NCBITaxon:10090 ! Mus musculus
 relationship: only_in_taxon NCBITaxon:10090 ! Mus musculus
 relationship: part_of NCBITaxon:10090 ! Mus musculus
+property_value: prefLabel "ABA entity" xsd:string
 property_value: prefLabel "ABA entity" xsd:string
 
 [Term]

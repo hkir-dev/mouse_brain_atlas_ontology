@@ -13,9 +13,9 @@
         "val" : "Mouse Brain Atlas Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2023-08-21"
+        "val" : "2023-08-23"
       } ],
-      "version" : "https://purl.brain-bican.org/ontology/mbao/releases/2023-08-21/mbao-base.json"
+      "version" : "https://purl.brain-bican.org/ontology/mbao/releases/2023-08-23/mbao-base.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -14704,7 +14704,7 @@
         } ]
       }
     }, {
-      "id" : "https://purl.brain-bican.org/ontology/mbao/ABA_Brain",
+      "id" : "https://purl.brain-bican.org/ontology/abao/ABA_Brain",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -14713,7 +14713,7 @@
         } ]
       }
     }, {
-      "id" : "https://purl.brain-bican.org/ontology/mbao/ABA_CTX1",
+      "id" : "https://purl.brain-bican.org/ontology/abao/ABA_CTX1",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -14722,7 +14722,7 @@
         } ]
       }
     }, {
-      "id" : "https://purl.brain-bican.org/ontology/mbao/ABA_CTX1-6b",
+      "id" : "https://purl.brain-bican.org/ontology/abao/ABA_CTX1-6b",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -14731,7 +14731,7 @@
         } ]
       }
     }, {
-      "id" : "https://purl.brain-bican.org/ontology/mbao/ABA_CTX2",
+      "id" : "https://purl.brain-bican.org/ontology/abao/ABA_CTX2",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -14740,7 +14740,7 @@
         } ]
       }
     }, {
-      "id" : "https://purl.brain-bican.org/ontology/mbao/ABA_CTX3",
+      "id" : "https://purl.brain-bican.org/ontology/abao/ABA_CTX3",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -14749,7 +14749,7 @@
         } ]
       }
     }, {
-      "id" : "https://purl.brain-bican.org/ontology/mbao/ABA_CTX4",
+      "id" : "https://purl.brain-bican.org/ontology/abao/ABA_CTX4",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -14758,7 +14758,7 @@
         } ]
       }
     }, {
-      "id" : "https://purl.brain-bican.org/ontology/mbao/ABA_CTX5",
+      "id" : "https://purl.brain-bican.org/ontology/abao/ABA_CTX5",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -14767,7 +14767,7 @@
         } ]
       }
     }, {
-      "id" : "https://purl.brain-bican.org/ontology/mbao/ABA_CTX6",
+      "id" : "https://purl.brain-bican.org/ontology/abao/ABA_CTX6",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -14776,7 +14776,7 @@
         } ]
       }
     }, {
-      "id" : "https://purl.brain-bican.org/ontology/mbao/ABA_ENTITY",
+      "id" : "https://purl.brain-bican.org/ontology/abao/ABA_ENTITY",
       "lbl" : "ABA entity",
       "type" : "CLASS",
       "meta" : {
@@ -14786,12 +14786,21 @@
         } ]
       }
     }, {
-      "id" : "https://purl.brain-bican.org/ontology/mbao/ABA_SNI",
+      "id" : "https://purl.brain-bican.org/ontology/abao/ABA_SNI",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000589",
           "val" : "substantia nigra pars lateralis (ABA)"
+        } ]
+      }
+    }, {
+      "id" : "https://purl.brain-bican.org/ontology/mbao/ABA_ENTITY",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+          "val" : "ABA entity"
         } ]
       }
     }, {
@@ -39689,87 +39698,87 @@
       }
     } ],
     "edges" : [ {
-      "sub" : "https://purl.brain-bican.org/ontology/mbao/ABA_Brain",
+      "sub" : "https://purl.brain-bican.org/ontology/abao/ABA_Brain",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000955"
     }, {
-      "sub" : "https://purl.brain-bican.org/ontology/mbao/ABA_Brain",
+      "sub" : "https://purl.brain-bican.org/ontology/abao/ABA_Brain",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
     }, {
-      "sub" : "https://purl.brain-bican.org/ontology/mbao/ABA_CTX1",
+      "sub" : "https://purl.brain-bican.org/ontology/abao/ABA_CTX1",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0005390"
     }, {
-      "sub" : "https://purl.brain-bican.org/ontology/mbao/ABA_CTX1",
+      "sub" : "https://purl.brain-bican.org/ontology/abao/ABA_CTX1",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
     }, {
-      "sub" : "https://purl.brain-bican.org/ontology/mbao/ABA_CTX1-6b",
+      "sub" : "https://purl.brain-bican.org/ontology/abao/ABA_CTX1-6b",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0002301"
     }, {
-      "sub" : "https://purl.brain-bican.org/ontology/mbao/ABA_CTX1-6b",
+      "sub" : "https://purl.brain-bican.org/ontology/abao/ABA_CTX1-6b",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
     }, {
-      "sub" : "https://purl.brain-bican.org/ontology/mbao/ABA_CTX2",
+      "sub" : "https://purl.brain-bican.org/ontology/abao/ABA_CTX2",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0005391"
     }, {
-      "sub" : "https://purl.brain-bican.org/ontology/mbao/ABA_CTX2",
+      "sub" : "https://purl.brain-bican.org/ontology/abao/ABA_CTX2",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
     }, {
-      "sub" : "https://purl.brain-bican.org/ontology/mbao/ABA_CTX3",
+      "sub" : "https://purl.brain-bican.org/ontology/abao/ABA_CTX3",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0005392"
     }, {
-      "sub" : "https://purl.brain-bican.org/ontology/mbao/ABA_CTX3",
+      "sub" : "https://purl.brain-bican.org/ontology/abao/ABA_CTX3",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
     }, {
-      "sub" : "https://purl.brain-bican.org/ontology/mbao/ABA_CTX4",
+      "sub" : "https://purl.brain-bican.org/ontology/abao/ABA_CTX4",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0005393"
     }, {
-      "sub" : "https://purl.brain-bican.org/ontology/mbao/ABA_CTX4",
+      "sub" : "https://purl.brain-bican.org/ontology/abao/ABA_CTX4",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
     }, {
-      "sub" : "https://purl.brain-bican.org/ontology/mbao/ABA_CTX5",
+      "sub" : "https://purl.brain-bican.org/ontology/abao/ABA_CTX5",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0005394"
     }, {
-      "sub" : "https://purl.brain-bican.org/ontology/mbao/ABA_CTX5",
+      "sub" : "https://purl.brain-bican.org/ontology/abao/ABA_CTX5",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
     }, {
-      "sub" : "https://purl.brain-bican.org/ontology/mbao/ABA_CTX6",
+      "sub" : "https://purl.brain-bican.org/ontology/abao/ABA_CTX6",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0005395"
     }, {
-      "sub" : "https://purl.brain-bican.org/ontology/mbao/ABA_CTX6",
+      "sub" : "https://purl.brain-bican.org/ontology/abao/ABA_CTX6",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
     }, {
-      "sub" : "https://purl.brain-bican.org/ontology/mbao/ABA_ENTITY",
+      "sub" : "https://purl.brain-bican.org/ontology/abao/ABA_ENTITY",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0001062"
     }, {
-      "sub" : "https://purl.brain-bican.org/ontology/mbao/ABA_ENTITY",
+      "sub" : "https://purl.brain-bican.org/ontology/abao/ABA_ENTITY",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
     }, {
-      "sub" : "https://purl.brain-bican.org/ontology/mbao/ABA_ENTITY",
+      "sub" : "https://purl.brain-bican.org/ontology/abao/ABA_ENTITY",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002160",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
     }, {
-      "sub" : "https://purl.brain-bican.org/ontology/mbao/ABA_SNI",
+      "sub" : "https://purl.brain-bican.org/ontology/abao/ABA_SNI",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0002995"
     }, {
-      "sub" : "https://purl.brain-bican.org/ontology/mbao/ABA_SNI",
+      "sub" : "https://purl.brain-bican.org/ontology/abao/ABA_SNI",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
     }, {
@@ -53486,70 +53495,70 @@
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
     } ],
     "logicalDefinitionAxioms" : [ {
-      "definedClassId" : "https://purl.brain-bican.org/ontology/mbao/ABA_Brain",
+      "definedClassId" : "https://purl.brain-bican.org/ontology/abao/ABA_Brain",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0000955" ],
       "restrictions" : [ {
         "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
       } ]
     }, {
-      "definedClassId" : "https://purl.brain-bican.org/ontology/mbao/ABA_CTX1",
+      "definedClassId" : "https://purl.brain-bican.org/ontology/abao/ABA_CTX1",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0005390" ],
       "restrictions" : [ {
         "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
       } ]
     }, {
-      "definedClassId" : "https://purl.brain-bican.org/ontology/mbao/ABA_CTX1-6b",
+      "definedClassId" : "https://purl.brain-bican.org/ontology/abao/ABA_CTX1-6b",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0002301" ],
       "restrictions" : [ {
         "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
       } ]
     }, {
-      "definedClassId" : "https://purl.brain-bican.org/ontology/mbao/ABA_CTX2",
+      "definedClassId" : "https://purl.brain-bican.org/ontology/abao/ABA_CTX2",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0005391" ],
       "restrictions" : [ {
         "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
       } ]
     }, {
-      "definedClassId" : "https://purl.brain-bican.org/ontology/mbao/ABA_CTX3",
+      "definedClassId" : "https://purl.brain-bican.org/ontology/abao/ABA_CTX3",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0005392" ],
       "restrictions" : [ {
         "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
       } ]
     }, {
-      "definedClassId" : "https://purl.brain-bican.org/ontology/mbao/ABA_CTX4",
+      "definedClassId" : "https://purl.brain-bican.org/ontology/abao/ABA_CTX4",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0005393" ],
       "restrictions" : [ {
         "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
       } ]
     }, {
-      "definedClassId" : "https://purl.brain-bican.org/ontology/mbao/ABA_CTX5",
+      "definedClassId" : "https://purl.brain-bican.org/ontology/abao/ABA_CTX5",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0005394" ],
       "restrictions" : [ {
         "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
       } ]
     }, {
-      "definedClassId" : "https://purl.brain-bican.org/ontology/mbao/ABA_CTX6",
+      "definedClassId" : "https://purl.brain-bican.org/ontology/abao/ABA_CTX6",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0005395" ],
       "restrictions" : [ {
         "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
       } ]
     }, {
-      "definedClassId" : "https://purl.brain-bican.org/ontology/mbao/ABA_ENTITY",
+      "definedClassId" : "https://purl.brain-bican.org/ontology/abao/ABA_ENTITY",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0001062" ],
       "restrictions" : [ {
         "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
         "fillerId" : "http://purl.obolibrary.org/obo/NCBITaxon_10090"
       } ]
     }, {
-      "definedClassId" : "https://purl.brain-bican.org/ontology/mbao/ABA_SNI",
+      "definedClassId" : "https://purl.brain-bican.org/ontology/abao/ABA_SNI",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0002995" ],
       "restrictions" : [ {
         "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",

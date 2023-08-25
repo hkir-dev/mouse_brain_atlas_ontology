@@ -23,7 +23,7 @@ LINKML = linkml-data2owl
 STRUCTURE_GRAPHS = $(patsubst %, sources/%.json, $(JOBS))
 ALL_GRAPH_ONTOLOGIES = $(patsubst sources/%.json,sources/%.ofn,$(STRUCTURE_GRAPHS))
 ALL_BRIDGES = $(patsubst %, sources/uberon-bridge-to-%.owl, $(BRIDGES))
-SOURCE_TEMPLATES = $(patsubst %, ../robot_templates/%_CCF_to_UBERON_source.tsv, $(TARGETS))
+SOURCE_TEMPLATES = $(patsubst %, ../templates/%_CCF_to_UBERON_source.tsv, $(TARGETS))
 NEW_BRIDGES = $(patsubst %, new-bridges/new-uberon-bridge-to-%.owl, $(TARGETS))
 
 
@@ -89,21 +89,26 @@ sources/uberon-bridge-to-pba.owl:
 	$(ROBOT) convert -i sources/uberon-bridge-to-pba.obo --format owl -o $@
 	sed -i 's|http://purl.obolibrary.org/obo/PBA_|https://purl.brain-bican.org/ontology/pbao/PBA_|g' $@
 
-# TODO handle legacy mapings
+# NEW BRIDGES
+$(TMPDIR)/%_old_mapping.tsv: sources/uberon-bridge-to-%.owl
+	$(ROBOT) query --input $< --query ../sparql/bridge_mappings.sparql $@
 
-#all_bridges:
-#	make sources/uberon-bridge-to-aba.obo sources/uberon-bridge-to-mba.obo -B
+../templates/%_CCF_to_UBERON_source.tsv: $(TMPDIR)/%_old_mapping.tsv  ../templates/%_CCF_to_UBERON.tsv
+	python ../scripts/mapping_source_template_generator.py -i1 $< -i2 $(word 2, $^) -o $@
 
-# Merge sources. # crudely listing dependencies for now - but could switch to using pattern expansion
-#sources_merged.owl: all_bridges
-#	robot merge --input sources/1.ofn --input sources/17.ofn --input sources/10.ofn --input sources/16.ofn --input sources/8.ofn --input sources/uberon-bridge-to-aba.obo --input sources/uberon-bridge-to-dhba.obo --input sources/uberon-bridge-to-dmba.obo --input sources/uberon-bridge-to-hba.obo --input sources/uberon-bridge-to-mba.obo --input sources/uberon-bridge-to-pba.obo annotate --ontology-iri $(URIBASE)/$@ -o $@
+new-bridges/new-uberon-bridge-to-%.owl: ../templates/%_CCF_to_UBERON.tsv ../templates/%_CCF_to_UBERON_source.tsv mirror/uberon.owl
+	$(ROBOT) template --input mirror/uberon.owl --template $< --output $(TMPDIR)/sourceless-new-uberon-bridge.owl
+	$(ROBOT) template --input mirror/uberon.owl --template $(word 2, $^) --output $(TMPDIR)/CCF_to_UBERON_source.owl
+	$(ROBOT) merge --input $(TMPDIR)/sourceless-new-uberon-bridge.owl --output $(TMPDIR)/CCF_to_UBERON_source.owl --output $@
 
-$(COMPONENTSDIR)/sources_merged.owl: $(ALL_GRAPH_ONTOLOGIES) $(ALL_BRIDGES)
+# END NEW BRIDGES
+
+$(COMPONENTSDIR)/sources_merged.owl: $(ALL_GRAPH_ONTOLOGIES) $(NEW_BRIDGES)
 	$(ROBOT) merge $(patsubst %, -i %, $^) relax annotate --ontology-iri $(URIBASE)/$@ -o $@
 
 # merge uberon + sources, reason & relax (EC -> SC)
 $(TMPDIR)/tmp.owl: $(SRC) $(COMPONENTSDIR)/sources_merged.owl
-	robot merge $(patsubst %, -i %, $^) relax annotate --ontology-iri $(URIBASE)/$@ -o $@
+	$(ROBOT) merge $(patsubst %, -i %, $^) relax annotate --ontology-iri $(URIBASE)/$@ -o $@
 
 # Make a json file for use in geneating ROBOT template
 $(TMPDIR)/tmp.json: $(TMPDIR)/tmp.owl

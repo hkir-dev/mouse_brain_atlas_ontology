@@ -10,7 +10,7 @@ from structure_graph_utils import read_structure_graph
 from abc import ABC, abstractmethod, ABCMeta
 from os.path import isfile, join
 
-MAPPING_FILE = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../robot_templates/mba_CCF_to_UBERON.tsv")
+MAPPING_FILE = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../templates/mba_CCF_to_UBERON.tsv")
 PATH_REPORT = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../../validation_report.txt")
 STRUCTURE_GRAPH_URL = "http://api.brain-map.org/api/v2/structure_graph_download/"
 

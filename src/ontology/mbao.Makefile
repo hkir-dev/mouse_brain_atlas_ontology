@@ -96,7 +96,7 @@ $(TMPDIR)/%_old_mapping.tsv: sources/uberon-bridge-to-%.owl
 ../templates/%_CCF_to_UBERON_source.tsv: $(TMPDIR)/%_old_mapping.tsv  ../templates/%_CCF_to_UBERON.tsv
 	python ../scripts/mapping_source_template_generator.py -i1 $< -i2 $(word 2, $^) -o $@
 
-new-bridges/new-uberon-bridge-to-%.owl: ../templates/%_CCF_to_UBERON.tsv ../templates/%_CCF_to_UBERON_source.tsv mirror/uberon.owl
+new-bridges/new-uberon-bridge-to-%.owl: ../templates/%_CCF_to_UBERON.tsv ../templates/%_CCF_to_UBERON_source.tsv mirror/uberon
 	$(ROBOT) template --input mirror/uberon.owl --template $< --output $(TMPDIR)/sourceless-new-uberon-bridge.owl
 	$(ROBOT) template --input mirror/uberon.owl --template $(word 2, $^) --output $(TMPDIR)/CCF_to_UBERON_source.owl
 	$(ROBOT) merge --input $(TMPDIR)/sourceless-new-uberon-bridge.owl --output $(TMPDIR)/CCF_to_UBERON_source.owl --output $@

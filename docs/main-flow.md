@@ -2,7 +2,7 @@
 
 Project build process works as follows:
 
-1. Related structure graph is downloaded from Allen, eg. [http://api.brain-map.org/api/v2/structure_graph_download/10.json](http://api.brain-map.org/api/v2/structure_graph_download/10.json)
+1. Related structure graph is downloaded from Allen, eg. [http://api.brain-map.org/api/v2/structure_graph_download/1.json](http://api.brain-map.org/api/v2/structure_graph_download/1.json)
 2. Using the [LinkML-OWL](https://github.com/linkml/linkml-owl) structure graph is converted to the owl. [structure_graph_schema.yaml](https://github.com/hkir-dev/mouse_brain_atlas_ontology/blob/main/src/linkml/structure_graph_schema.yaml) template is utilized for the conversion.
 3. Using the [ROBOT](http://robot.obolibrary.org/) ontology templating tool, a [new bridge file](https://github.com/hkir-dev/mouse_brain_atlas_ontology/tree/main/src/templates) template is generated.
 4. Using the new bridge template atlas and UBERON terms are manually mapped.

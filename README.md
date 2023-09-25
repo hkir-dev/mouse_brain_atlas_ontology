@@ -7,7 +7,7 @@ _**Important Note:** The ontologies included in this repository are currently in
 
 This repository contains an application ontology built by combining ontologised versions of the Allen Institute Mouse Brain Atlas (MBA) StructureGraph mapped to Uberon. 
 
-More information can be found at https://hkir-dev.github.io/mouse_brain_atlas_ontology/
+More information can be found at https://brain-bican.github.io/mouse_brain_atlas_ontology/
 
 ## Versions
 
@@ -25,7 +25,7 @@ Editors of this ontology should use the edit version, [src/ontology/mbao-edit.ow
 
 ## Contact
 
-Please use this GitHub repository's [Issue tracker](https://github.com/hkir-dev/mouse_brain_atlas_ontology/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
+Please use this GitHub repository's [Issue tracker](https://github.com/brain-bican/mouse_brain_atlas_ontology/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
 
 ## Acknowledgements
 

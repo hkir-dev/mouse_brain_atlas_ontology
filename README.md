@@ -15,7 +15,7 @@ More information can be found at https://brain-bican.github.io/mouse_brain_atlas
 
 The latest version of the ontology can always be found at:
 
-https://purl.brain-bican.org/ontology/mbao.owl
+https://purl.brain-bican.org/ontology/mbao/mbao.owl
 
 (note this will not show up until the request has been approved by obofoundry.org)
 

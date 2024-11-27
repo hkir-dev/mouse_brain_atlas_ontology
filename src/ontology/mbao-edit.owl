@@ -20,6 +20,7 @@ Import(<https://purl.brain-bican.org/ontology/mbao/components/all_templates.owl>
 Import(<https://purl.brain-bican.org/ontology/mbao/patterns/definitions.owl>)
 Annotation(dcterms:license <http://creativecommons.org/licenses/by/4.0/>)
 Annotation(dcterms:title "Mouse Brain Atlas Ontology")
+Annotation(dce:description "The Mouse Brain Atlas Ontology (MBAO) is ontologised versions of the Allen Institute Mouse Brain Atlas (MBA) StructureGraph mapped to Uberon.")
 
 
 Declaration(AnnotationProperty(dcterms:description))

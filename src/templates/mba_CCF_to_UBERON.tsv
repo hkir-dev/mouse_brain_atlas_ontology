@@ -1,6 +1,5 @@
 ID	Label	logical type	Subclass part of	Equivalent	Evquivalent part of	SuperClass Label	Status	Approved by
-ID	A IAO:0000589	CLASS_TYPE	C part_of some % and (part_of some NCBITaxon:10090)	C % and (part_of some NCBITaxon:10090)	C part_of some %	>A rdfs:label	A oboInOwl:status	>A oboInOwl:source
-https://purl.brain-bican.org/ontology/mbao/MBA_ENTITY	MBA entity	equivalent		http://purl.obolibrary.org/obo/UBERON_0001062		anatomical entity	Verified	https://ror.org/03cpe7c52
+ID	A IAO:0000589	CLASS_TYPE	C 'part of' some % and ('part of' some NCBITaxon:10090)	C % and ('part of' some NCBITaxon:10090)	C 'part of' some %	>A rdfs:label	A oboInOwl:status	>A oboInOwl:source
 https://purl.brain-bican.org/ontology/mbao/MBA_1	"tuberomammillary nucleus, ventral part"	equivalent		http://purl.obolibrary.org/obo/UBERON_0014594		tuberomammillary nucleus ventral part	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_100	interpeduncular nucleus	equivalent		http://purl.obolibrary.org/obo/UBERON_0002145		interpeduncular nucleus	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_1000	extrapyramidal fiber systems	equivalent		http://purl.obolibrary.org/obo/UBERON_0035803		extrapyramidal tract system	Verified	https://ror.org/03cpe7c52
@@ -1243,7 +1242,6 @@ https://purl.brain-bican.org/ontology/mbao/MBA_1099	fornix system	equivalent		ht
 https://purl.brain-bican.org/ontology/mbao/MBA_1024	grooves	equivalent		http://purl.obolibrary.org/obo/UBERON_0013118		sulcus of brain	Verified	https://orcid.org/0000-0001-7258-9596
 https://purl.brain-bican.org/ontology/mbao/MBA_1009	fiber tracts	equivalent		http://purl.obolibrary.org/obo/UBERON_0000122		neuron projection bundle	Verified	https://orcid.org/0000-0001-7258-9596
 https://purl.brain-bican.org/ontology/mbao/MBA_76	interstitial nucleus of the vestibular nerve	equivalent		http://purl.obolibrary.org/obo/UBERON_8440074		interstitial nucleus of the vestibular nerve	Verified	https://orcid.org/0000-0001-7258-9596
-								
 https://purl.brain-bican.org/ontology/mbao/MBA_10687	"paraflocculus, granular layer"	equivalent		http://purl.obolibrary.org/obo/UBERON_0002956	http://purl.obolibrary.org/obo/UBERON_0005351		Verified	https://orcid.org/0000-0001-7258-9596
 https://purl.brain-bican.org/ontology/mbao/MBA_10688	"paraflocculus, Purkinje layer"	equivalent		http://purl.obolibrary.org/obo/UBERON_0002979	http://purl.obolibrary.org/obo/UBERON_0005351		Verified	https://orcid.org/0000-0001-7258-9596
 https://purl.brain-bican.org/ontology/mbao/MBA_10689	"paraflocculus, molecular layer"	equivalent		http://purl.obolibrary.org/obo/UBERON_0002974	http://purl.obolibrary.org/obo/UBERON_0005351		Verified	https://orcid.org/0000-0001-7258-9596
@@ -1354,14 +1352,14 @@ https://purl.brain-bican.org/ontology/mbao/MBA_187	"Gustatory areas, layer 5"	eq
 https://purl.brain-bican.org/ontology/mbao/MBA_662	"Gustatory areas, layer 6b"	equivalent		http://purl.obolibrary.org/obo/UBERON_8440003	http://purl.obolibrary.org/obo/UBERON_8440075		Verified	https://orcid.org/0000-0001-7258-9596
 https://purl.brain-bican.org/ontology/mbao/MBA_1127	"Temporal association areas, layer 2/3"	equivalent		http://purl.obolibrary.org/obo/UBERON_8440000	http://purl.obolibrary.org/obo/UBERON_0035013		Verified	https://orcid.org/0000-0001-7258-9596
 https://purl.brain-bican.org/ontology/mbao/MBA_107	"Somatomotor areas, Layer 1"	equivalent		http://purl.obolibrary.org/obo/UBERON_0005390	http://purl.obolibrary.org/obo/UBERON_8440076		Verified	https://orcid.org/0000-0001-7258-9596
-https://purl.brain-bican.org/ontology/mbao/MBA_219 	"Somatomotor areas, Layer 2/3"	equivalent		http://purl.obolibrary.org/obo/UBERON_8440000	http://purl.obolibrary.org/obo/UBERON_8440076		Verified	https://orcid.org/0000-0001-7258-9596
+https://purl.brain-bican.org/ontology/mbao/MBA_219	"Somatomotor areas, Layer 2/3"	equivalent		http://purl.obolibrary.org/obo/UBERON_8440000	http://purl.obolibrary.org/obo/UBERON_8440076		Verified	https://orcid.org/0000-0001-7258-9596
 https://purl.brain-bican.org/ontology/mbao/MBA_299	"Somatomotor areas, Layer 5"	equivalent		http://purl.obolibrary.org/obo/UBERON_0035913	http://purl.obolibrary.org/obo/UBERON_8440076		Verified	https://orcid.org/0000-0001-7258-9596
 https://purl.brain-bican.org/ontology/mbao/MBA_644	"Somatomotor areas, Layer 6a"	equivalent		http://purl.obolibrary.org/obo/UBERON_0005395	http://purl.obolibrary.org/obo/UBERON_8440076		Verified	https://orcid.org/0000-0001-7258-9596
 https://purl.brain-bican.org/ontology/mbao/MBA_947	"Somatomotor areas, Layer 6b"	equivalent		http://purl.obolibrary.org/obo/UBERON_8440003	http://purl.obolibrary.org/obo/UBERON_8440076		Verified	https://orcid.org/0000-0001-7258-9596
 https://purl.brain-bican.org/ontology/mbao/MBA_1106	"Visceral area, layer 2/3"	equivalent		http://purl.obolibrary.org/obo/UBERON_8440000	http://purl.obolibrary.org/obo/UBERON_8440024		Verified	https://orcid.org/0000-0001-7258-9596
 https://purl.brain-bican.org/ontology/mbao/MBA_857	"Visceral area, layer 6a"	equivalent		http://purl.obolibrary.org/obo/UBERON_0005395	http://purl.obolibrary.org/obo/UBERON_8440024		Verified	https://orcid.org/0000-0001-7258-9596
 https://purl.brain-bican.org/ontology/mbao/MBA_849	"Visceral area, layer 6b"	equivalent		http://purl.obolibrary.org/obo/UBERON_8440003	http://purl.obolibrary.org/obo/UBERON_8440024		Verified	https://orcid.org/0000-0001-7258-9596
-https://purl.brain-bican.org/ontology/mbao/MBA_296 	"Anterior cingulate area, ventral part, layer 2/3"	subclass	http://purl.obolibrary.org/obo/UBERON_0009835				Verified	https://orcid.org/0000-0001-7258-9596
+https://purl.brain-bican.org/ontology/mbao/MBA_296	"Anterior cingulate area, ventral part, layer 2/3"	subclass	http://purl.obolibrary.org/obo/UBERON_0009835				Verified	https://orcid.org/0000-0001-7258-9596
 https://purl.brain-bican.org/ontology/mbao/MBA_171	"Prelimbic area, layer 1"	equivalent		http://purl.obolibrary.org/obo/UBERON_0005390	http://purl.obolibrary.org/obo/UBERON_8440032		Verified	https://orcid.org/0000-0001-7258-9596
 https://purl.brain-bican.org/ontology/mbao/MBA_195	"Prelimbic area, layer 2"	equivalent		http://purl.obolibrary.org/obo/UBERON_0005391	http://purl.obolibrary.org/obo/UBERON_8440032		Verified	https://orcid.org/0000-0001-7258-9596
 https://purl.brain-bican.org/ontology/mbao/MBA_304	"Prelimbic area, layer 2/3"	equivalent		http://purl.obolibrary.org/obo/UBERON_8440000	http://purl.obolibrary.org/obo/UBERON_8440032		Verified	https://orcid.org/0000-0001-7258-9596

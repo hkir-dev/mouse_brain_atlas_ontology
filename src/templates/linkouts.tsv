@@ -1,34 +1,61 @@
 ID	xref	prefLabel
 ID	A OboInOwl:hasDbXref	A skos:prefLabel
 http://purl.obolibrary.org/obo/CL_0000000		cell
+http://purl.obolibrary.org/obo/CL_0000006		neuronal receptor cell
+http://purl.obolibrary.org/obo/CL_0000007		early embryonic cell (metazoa)
 http://purl.obolibrary.org/obo/CL_0000008		migratory cranial neural crest cell
+http://purl.obolibrary.org/obo/CL_0000029		neural crest derived neuron
 http://purl.obolibrary.org/obo/CL_0000031		neuroblast (sensu Vertebrata)
+http://purl.obolibrary.org/obo/CL_0000034		stem cell
+http://purl.obolibrary.org/obo/CL_0000037		hematopoietic stem cell
+http://purl.obolibrary.org/obo/CL_0000038		erythroid progenitor cell
+http://purl.obolibrary.org/obo/CL_0000039		germ line cell
+http://purl.obolibrary.org/obo/CL_0000048		multi fate stem cell
+http://purl.obolibrary.org/obo/CL_0000049		common myeloid progenitor
+http://purl.obolibrary.org/obo/CL_0000050		megakaryocyte-erythroid progenitor cell
+http://purl.obolibrary.org/obo/CL_0000052		totipotent stem cell
+http://purl.obolibrary.org/obo/CL_0000055		non-terminally differentiated cell
+http://purl.obolibrary.org/obo/CL_0000056		myoblast
 http://purl.obolibrary.org/obo/CL_0000057		fibroblast
+http://purl.obolibrary.org/obo/CL_0000058		chondroblast
+http://purl.obolibrary.org/obo/CL_0000064		ciliated cell
 http://purl.obolibrary.org/obo/CL_0000065		ependymal cell
 http://purl.obolibrary.org/obo/CL_0000066		epithelial cell
 http://purl.obolibrary.org/obo/CL_0000067		ciliated epithelial cell
 http://purl.obolibrary.org/obo/CL_0000071		blood vessel endothelial cell
 http://purl.obolibrary.org/obo/CL_0000075		columnar/cuboidal epithelial cell
 http://purl.obolibrary.org/obo/CL_0000076		squamous epithelial cell
+http://purl.obolibrary.org/obo/CL_0000081		blood cell
+http://purl.obolibrary.org/obo/CL_0000095		neuron associated cell
 http://purl.obolibrary.org/obo/CL_0000098		sensory epithelial cell
 http://purl.obolibrary.org/obo/CL_0000099		interneuron
 http://purl.obolibrary.org/obo/CL_0000100		motor neuron
 http://purl.obolibrary.org/obo/CL_0000101		sensory neuron
+http://purl.obolibrary.org/obo/CL_0000104		multipolar neuron
 http://purl.obolibrary.org/obo/CL_0000108		cholinergic neuron
 http://purl.obolibrary.org/obo/CL_0000115		endothelial cell
+http://purl.obolibrary.org/obo/CL_0000117		CNS neuron (sensu Vertebrata)
 http://purl.obolibrary.org/obo/CL_0000118		basket cell
 http://purl.obolibrary.org/obo/CL_0000119		cerebellar Golgi cell
+http://purl.obolibrary.org/obo/CL_0000120		granule cell
 http://purl.obolibrary.org/obo/CL_0000121		Purkinje cell
 http://purl.obolibrary.org/obo/CL_0000122		stellate neuron
 http://purl.obolibrary.org/obo/CL_0000125		glial cell
 http://purl.obolibrary.org/obo/CL_0000133		neurectodermal cell
-http://purl.obolibrary.org/obo/CL_0000136		fat cell
+http://purl.obolibrary.org/obo/CL_0000134		mesenchymal stem cell
+http://purl.obolibrary.org/obo/CL_0000136		adipocyte
 http://purl.obolibrary.org/obo/CL_0000138		chondrocyte
+http://purl.obolibrary.org/obo/CL_0000147		pigment cell
 http://purl.obolibrary.org/obo/CL_0000149		visual pigment cell
 http://purl.obolibrary.org/obo/CL_0000150		glandular epithelial cell
 http://purl.obolibrary.org/obo/CL_0000151		secretory cell
+http://purl.obolibrary.org/obo/CL_0000153		glycosaminoglycan secreting cell
+http://purl.obolibrary.org/obo/CL_0000154		protein secreting cell
+http://purl.obolibrary.org/obo/CL_0000163		endocrine cell
 http://purl.obolibrary.org/obo/CL_0000165		neuroendocrine cell
 http://purl.obolibrary.org/obo/CL_0000166		chromaffin cell
+http://purl.obolibrary.org/obo/CL_0000167		peptide hormone secreting cell
+http://purl.obolibrary.org/obo/CL_0000183		contractile cell
 http://purl.obolibrary.org/obo/CL_0000187		muscle cell
 http://purl.obolibrary.org/obo/CL_0000188		cell of skeletal muscle
 http://purl.obolibrary.org/obo/CL_0000192		smooth muscle cell
@@ -37,58 +64,189 @@ http://purl.obolibrary.org/obo/CL_0000206		chemoreceptor cell
 http://purl.obolibrary.org/obo/CL_0000207		olfactory receptor cell
 http://purl.obolibrary.org/obo/CL_0000209		taste receptor cell
 http://purl.obolibrary.org/obo/CL_0000210		photoreceptor cell
+http://purl.obolibrary.org/obo/CL_0000211		electrically active cell
+http://purl.obolibrary.org/obo/CL_0000213		lining cell
+http://purl.obolibrary.org/obo/CL_0000215		barrier cell
+http://purl.obolibrary.org/obo/CL_0000219		motile cell
 http://purl.obolibrary.org/obo/CL_0000221		ectodermal cell
 http://purl.obolibrary.org/obo/CL_0000222		mesodermal cell
 http://purl.obolibrary.org/obo/CL_0000223		endodermal cell
 http://purl.obolibrary.org/obo/CL_0000228		multinucleate cell
 http://purl.obolibrary.org/obo/CL_0000232		erythrocyte
+http://purl.obolibrary.org/obo/CL_0000255		eukaryotic cell
 http://purl.obolibrary.org/obo/CL_0000287		eye photoreceptor cell
+http://purl.obolibrary.org/obo/CL_0000293		structural cell
 http://purl.obolibrary.org/obo/CL_0000295		somatotropin secreting cell
+http://purl.obolibrary.org/obo/CL_0000325		stuff accumulating cell
 http://purl.obolibrary.org/obo/CL_0000327		extracellular matrix secreting cell
+http://purl.obolibrary.org/obo/CL_0000329		oxygen accumulating cell
 http://purl.obolibrary.org/obo/CL_0000333		migratory neural crest cell
 http://purl.obolibrary.org/obo/CL_0000335		mesenchyme condensation cell
 http://purl.obolibrary.org/obo/CL_0000347		scleral cell
 http://purl.obolibrary.org/obo/CL_0000352		epiblast cell
+http://purl.obolibrary.org/obo/CL_0000355		multi-potent skeletal muscle stem cell
 http://purl.obolibrary.org/obo/CL_0000365		animal zygote
+http://purl.obolibrary.org/obo/CL_0000393		electrically responsive cell
+http://purl.obolibrary.org/obo/CL_0000402		CNS interneuron
+http://purl.obolibrary.org/obo/CL_0000404		electrically signaling cell
 http://purl.obolibrary.org/obo/CL_0000438		luteinizing hormone secreting cell
 http://purl.obolibrary.org/obo/CL_0000439		prolactin secreting cell
 http://purl.obolibrary.org/obo/CL_0000440		melanocyte stimulating hormone secreting cell
+http://purl.obolibrary.org/obo/CL_0000447		carbohydrate secreting cell
 http://purl.obolibrary.org/obo/CL_0000457		biogenic amine secreting cell
 http://purl.obolibrary.org/obo/CL_0000459		noradrenergic cell
 http://purl.obolibrary.org/obo/CL_0000467		adrenocorticotropic hormone secreting cell
+http://purl.obolibrary.org/obo/CL_0000498		inhibitory interneuron
+http://purl.obolibrary.org/obo/CL_0000499		stromal cell
+http://purl.obolibrary.org/obo/CL_0000514		smooth muscle myoblast
+http://purl.obolibrary.org/obo/CL_0000515		skeletal muscle myoblast
 http://purl.obolibrary.org/obo/CL_0000526		afferent neuron
 http://purl.obolibrary.org/obo/CL_0000527		efferent neuron
 http://purl.obolibrary.org/obo/CL_0000540		neuron
+http://purl.obolibrary.org/obo/CL_0000547		proerythroblast
+http://purl.obolibrary.org/obo/CL_0000549		basophilic erythroblast
+http://purl.obolibrary.org/obo/CL_0000550		polychromatophilic erythroblast
+http://purl.obolibrary.org/obo/CL_0000552		orthochromatic erythroblast
 http://purl.obolibrary.org/obo/CL_0000555		neuronal brush cell
+http://purl.obolibrary.org/obo/CL_0000558		reticulocyte
 http://purl.obolibrary.org/obo/CL_0000566		angioblastic mesenchymal cell
+http://purl.obolibrary.org/obo/CL_0000568		amine precursor uptake and decarboxylation cell
 http://purl.obolibrary.org/obo/CL_0000573		retinal cone cell
+http://purl.obolibrary.org/obo/CL_0000586		germ cell
 http://purl.obolibrary.org/obo/CL_0000598		pyramidal neuron
 http://purl.obolibrary.org/obo/CL_0000604		retinal rod cell
+http://purl.obolibrary.org/obo/CL_0000617		GABAergic neuron
 http://purl.obolibrary.org/obo/CL_0000626		olfactory granule cell
+http://purl.obolibrary.org/obo/CL_0000630		supporting cell
+http://purl.obolibrary.org/obo/CL_0000637		chromophil cell of anterior pituitary gland
+http://purl.obolibrary.org/obo/CL_0000638		acidophil cell of pars distalis of adenohypophysis
 http://purl.obolibrary.org/obo/CL_0000642		folliculostellate cell
 http://purl.obolibrary.org/obo/CL_0000652		pinealocyte
+http://purl.obolibrary.org/obo/CL_0000667		collagen secreting cell
+http://purl.obolibrary.org/obo/CL_0000679		glutamatergic neuron
 http://purl.obolibrary.org/obo/CL_0000680		muscle precursor cell
+http://purl.obolibrary.org/obo/CL_0000681		radial glial cell
 http://purl.obolibrary.org/obo/CL_0000700		dopaminergic neuron
+http://purl.obolibrary.org/obo/CL_0000710		neurecto-epithelial cell
+http://purl.obolibrary.org/obo/CL_0000723		somatic stem cell
 http://purl.obolibrary.org/obo/CL_0000737		striated muscle cell
 http://purl.obolibrary.org/obo/CL_0000740		retinal ganglion cell
+http://purl.obolibrary.org/obo/CL_0000763		myeloid cell
+http://purl.obolibrary.org/obo/CL_0000764		erythroid lineage cell
+http://purl.obolibrary.org/obo/CL_0000765		erythroblast
+http://purl.obolibrary.org/obo/CL_0000837		hematopoietic multipotent progenitor cell
+http://purl.obolibrary.org/obo/CL_0000839		myeloid lineage restricted progenitor cell
 http://purl.obolibrary.org/obo/CL_0000853		olfactory epithelial supporting cell
 http://purl.obolibrary.org/obo/CL_0000988		hematopoietic cell
 http://purl.obolibrary.org/obo/CL_0001031		cerebellar granule cell
+http://purl.obolibrary.org/obo/CL_0001032		cortical granule cell
 http://purl.obolibrary.org/obo/CL_0001033		hippocampal granule cell
+http://purl.obolibrary.org/obo/CL_0002031		hematopoietic lineage restricted progenitor cell
+http://purl.obolibrary.org/obo/CL_0002032		hematopoietic oligopotent progenitor cell
+http://purl.obolibrary.org/obo/CL_0002076		endo-epithelial cell
 http://purl.obolibrary.org/obo/CL_0002077		ecto-epithelial cell
+http://purl.obolibrary.org/obo/CL_0002139		endothelial cell of vascular tree
+http://purl.obolibrary.org/obo/CL_0002167		olfactory epithelial cell
 http://purl.obolibrary.org/obo/CL_0002169		basal cell of olfactory epithelium
 http://purl.obolibrary.org/obo/CL_0002220		interstitial cell of pineal gland
+http://purl.obolibrary.org/obo/CL_0002242		nucleate cell
 http://purl.obolibrary.org/obo/CL_0002312		somatotroph
 http://purl.obolibrary.org/obo/CL_0002319		neural cell
 http://purl.obolibrary.org/obo/CL_0002320		connective tissue cell
+http://purl.obolibrary.org/obo/CL_0002321		embryonic cell (metazoa)
+http://purl.obolibrary.org/obo/CL_0002362		cerebellar granule cell precursor
+http://purl.obolibrary.org/obo/CL_0002368		respiratory epithelial cell
+http://purl.obolibrary.org/obo/CL_0002372		myotube
 http://purl.obolibrary.org/obo/CL_0002494		cardiocyte
+http://purl.obolibrary.org/obo/CL_0002608		hippocampal neuron
+http://purl.obolibrary.org/obo/CL_0002631		epithelial cell of upper respiratory tract
 http://purl.obolibrary.org/obo/CL_0002672		retinal progenitor cell
+http://purl.obolibrary.org/obo/CL_0002676		neural crest derived neuroblast
 http://purl.obolibrary.org/obo/CL_0005000		spinal cord interneuron
 http://purl.obolibrary.org/obo/CL_0007001		skeletogenic cell
+http://purl.obolibrary.org/obo/CL_0007004		premigratory neural crest cell
+http://purl.obolibrary.org/obo/CL_0007009		prechondroblast
+http://purl.obolibrary.org/obo/CL_0008000		non-striated muscle cell
+http://purl.obolibrary.org/obo/CL_0008001		hematopoietic precursor cell
 http://purl.obolibrary.org/obo/CL_0008002		skeletal muscle fiber
 http://purl.obolibrary.org/obo/CL_0008007		visceral muscle cell
 http://purl.obolibrary.org/obo/CL_0008019		mesenchymal cell
+http://purl.obolibrary.org/obo/CL_0008028		visual system neuron
+http://purl.obolibrary.org/obo/CL_0009004		retinal cell
+http://purl.obolibrary.org/obo/CL_0010009		camera-type eye photoreceptor cell
+http://purl.obolibrary.org/obo/CL_0010012		cerebral cortex neuron
+http://purl.obolibrary.org/obo/CL_0010017		zygote
+http://purl.obolibrary.org/obo/CL_0011005		GABAergic interneuron
+http://purl.obolibrary.org/obo/CL_0011012		neural crest cell
+http://purl.obolibrary.org/obo/CL_0011026		progenitor cell
+http://purl.obolibrary.org/obo/CL_0011115		precursor cell
+http://purl.obolibrary.org/obo/CL_0012001		neuron of the forebrain
+http://purl.obolibrary.org/obo/CL_0017502		acidophilic cytoplasm
+http://purl.obolibrary.org/obo/CL_0017503		basophilic cytoplasm
+http://purl.obolibrary.org/obo/CL_0017504		polychromatophilic cytoplasm
+http://purl.obolibrary.org/obo/CL_1001434		olfactory bulb interneuron
+http://purl.obolibrary.org/obo/CL_1001502		mitral cell
+http://purl.obolibrary.org/obo/CL_1001503		olfactory bulb tufted cell
+http://purl.obolibrary.org/obo/CL_1001611		cerebellar neuron
+http://purl.obolibrary.org/obo/CL_2000004		pituitary gland cell
+http://purl.obolibrary.org/obo/CL_2000028		cerebellum glutamatergic neuron
+http://purl.obolibrary.org/obo/CL_2000029		central nervous system neuron
 http://purl.obolibrary.org/obo/CL_2000089		dentate gyrus granule cell
+http://purl.obolibrary.org/obo/CL_4023057		cerebellar inhibitory GABAergic interneuron
+http://purl.obolibrary.org/obo/CL_4023062		dentate gyrus neuron
+http://purl.obolibrary.org/obo/CL_4033050		catecholaminergic neuron
+http://purl.obolibrary.org/obo/CL_4052002		syncytial cell
+http://purl.obolibrary.org/obo/GO_0000785		chromatin
+http://purl.obolibrary.org/obo/GO_0000792		heterochromatin
+http://purl.obolibrary.org/obo/GO_0005604		basement membrane
+http://purl.obolibrary.org/obo/GO_0005622		intracellular anatomical structure
+http://purl.obolibrary.org/obo/GO_0005634		nucleus
+http://purl.obolibrary.org/obo/GO_0005694		chromosome
+http://purl.obolibrary.org/obo/GO_0005730		nucleolus
+http://purl.obolibrary.org/obo/GO_0005737		cytoplasm
+http://purl.obolibrary.org/obo/GO_0005840		ribosome
+http://purl.obolibrary.org/obo/GO_0005886		plasma membrane
+http://purl.obolibrary.org/obo/GO_0005911		cell-cell junction
+http://purl.obolibrary.org/obo/GO_0005929		cilium
+http://purl.obolibrary.org/obo/GO_0016020		membrane
+http://purl.obolibrary.org/obo/GO_0030016		myofibril
+http://purl.obolibrary.org/obo/GO_0030017		sarcomere
+http://purl.obolibrary.org/obo/GO_0030054		cell junction
+http://purl.obolibrary.org/obo/GO_0030312		external encapsulating structure
+http://purl.obolibrary.org/obo/GO_0030424		axon
+http://purl.obolibrary.org/obo/GO_0030425		dendrite
+http://purl.obolibrary.org/obo/GO_0031012		extracellular matrix
+http://purl.obolibrary.org/obo/GO_0031974		membrane-enclosed lumen
+http://purl.obolibrary.org/obo/GO_0031981		nuclear lumen
+http://purl.obolibrary.org/obo/GO_0036477		somatodendritic compartment
+http://purl.obolibrary.org/obo/GO_0042995		cell projection
+http://purl.obolibrary.org/obo/GO_0043005		neuron projection
+http://purl.obolibrary.org/obo/GO_0043025		neuronal cell body
+http://purl.obolibrary.org/obo/GO_0043209		myelin sheath
+http://purl.obolibrary.org/obo/GO_0043226		organelle
+http://purl.obolibrary.org/obo/GO_0043227		membrane-bounded organelle
+http://purl.obolibrary.org/obo/GO_0043228		membraneless organelle
+http://purl.obolibrary.org/obo/GO_0043229		intracellular organelle
+http://purl.obolibrary.org/obo/GO_0043231		intracellular membrane-bounded organelle
+http://purl.obolibrary.org/obo/GO_0043232		intracellular membraneless organelle
+http://purl.obolibrary.org/obo/GO_0043233		organelle lumen
+http://purl.obolibrary.org/obo/GO_0043292		contractile muscle fiber
+http://purl.obolibrary.org/obo/GO_0044297		cell body
+http://purl.obolibrary.org/obo/GO_0062023		collagen-containing extracellular matrix
+http://purl.obolibrary.org/obo/GO_0070013		intracellular organelle lumen
+http://purl.obolibrary.org/obo/GO_0070161		anchoring junction
+http://purl.obolibrary.org/obo/GO_0071944		cell periphery
+http://purl.obolibrary.org/obo/GO_0071953		elastic fiber
+http://purl.obolibrary.org/obo/GO_0097447		dendritic tree
+http://purl.obolibrary.org/obo/GO_0097457		hippocampal mossy fiber
+http://purl.obolibrary.org/obo/GO_0098590		plasma membrane region
+http://purl.obolibrary.org/obo/GO_0098643		banded collagen fibril
+http://purl.obolibrary.org/obo/GO_0098644		complex of collagen trimers
+http://purl.obolibrary.org/obo/GO_0099080		supramolecular complex
+http://purl.obolibrary.org/obo/GO_0099081		supramolecular polymer
+http://purl.obolibrary.org/obo/GO_0099512		supramolecular fiber
+http://purl.obolibrary.org/obo/GO_0110165		cellular anatomical structure
+http://purl.obolibrary.org/obo/GO_0120025		plasma membrane bounded cell projection
 http://purl.obolibrary.org/obo/NCBITaxon_1		root
 http://purl.obolibrary.org/obo/NCBITaxon_10066		Muridae
 http://purl.obolibrary.org/obo/NCBITaxon_10088		Mus <genus>
@@ -234,6 +392,8 @@ http://purl.obolibrary.org/obo/UBERON_0000966		retina
 http://purl.obolibrary.org/obo/UBERON_0000970		eye
 http://purl.obolibrary.org/obo/UBERON_0000982		skeletal joint
 http://purl.obolibrary.org/obo/UBERON_0000988		pons
+http://purl.obolibrary.org/obo/UBERON_0000990		reproductive system
+http://purl.obolibrary.org/obo/UBERON_0000991		gonad
 http://purl.obolibrary.org/obo/UBERON_0001003		skin epidermis
 http://purl.obolibrary.org/obo/UBERON_0001004		respiratory system
 http://purl.obolibrary.org/obo/UBERON_0001005		respiratory airway
@@ -766,6 +926,7 @@ http://purl.obolibrary.org/obo/UBERON_0003114		pharyngeal arch 3
 http://purl.obolibrary.org/obo/UBERON_0003117		pharyngeal arch 6
 http://purl.obolibrary.org/obo/UBERON_0003128		cranium
 http://purl.obolibrary.org/obo/UBERON_0003129		skull
+http://purl.obolibrary.org/obo/UBERON_0003133		reproductive organ
 http://purl.obolibrary.org/obo/UBERON_0003212		gustatory organ
 http://purl.obolibrary.org/obo/UBERON_0003258		endoderm of foregut
 http://purl.obolibrary.org/obo/UBERON_0003269		skeletal muscle tissue of eye
@@ -805,6 +966,7 @@ http://purl.obolibrary.org/obo/UBERON_0003931		diencephalic white matter
 http://purl.obolibrary.org/obo/UBERON_0003932		cartilage element of chondrocranium
 http://purl.obolibrary.org/obo/UBERON_0003933		cranial cartilage
 http://purl.obolibrary.org/obo/UBERON_0003936		postoptic commissure
+http://purl.obolibrary.org/obo/UBERON_0003937		reproductive gland
 http://purl.obolibrary.org/obo/UBERON_0003941		cerebellum anterior vermis
 http://purl.obolibrary.org/obo/UBERON_0003942		somatosensory system
 http://purl.obolibrary.org/obo/UBERON_0003947		brain ventricle/choroid plexus
@@ -876,6 +1038,7 @@ http://purl.obolibrary.org/obo/UBERON_0004572		arterial system
 http://purl.obolibrary.org/obo/UBERON_0004582		venous system
 http://purl.obolibrary.org/obo/UBERON_0004637		otic capsule
 http://purl.obolibrary.org/obo/UBERON_0004638		blood vessel endothelium
+http://purl.obolibrary.org/obo/UBERON_0004670		ependyma
 http://purl.obolibrary.org/obo/UBERON_0004673		trigeminal nerve root
 http://purl.obolibrary.org/obo/UBERON_0004674		facial nerve root
 http://purl.obolibrary.org/obo/UBERON_0004679		dentate gyrus molecular layer
@@ -915,6 +1078,7 @@ http://purl.obolibrary.org/obo/UBERON_0005062		neural fold
 http://purl.obolibrary.org/obo/UBERON_0005068		neural rod
 http://purl.obolibrary.org/obo/UBERON_0005085		ectodermal placode
 http://purl.obolibrary.org/obo/UBERON_0005090		muscle structure
+http://purl.obolibrary.org/obo/UBERON_0005156		reproductive structure
 http://purl.obolibrary.org/obo/UBERON_0005157		epithelial fold
 http://purl.obolibrary.org/obo/UBERON_0005162		multi cell part structure
 http://purl.obolibrary.org/obo/UBERON_0005174		dorsal region element
@@ -976,6 +1140,7 @@ http://purl.obolibrary.org/obo/UBERON_0005497		non-neural ectoderm
 http://purl.obolibrary.org/obo/UBERON_0005498		primitive heart tube
 http://purl.obolibrary.org/obo/UBERON_0005499		rhombomere 1
 http://purl.obolibrary.org/obo/UBERON_0005502		rhombomere roof plate
+http://purl.obolibrary.org/obo/UBERON_0005564		gonad primordium
 http://purl.obolibrary.org/obo/UBERON_0005568		rhombomere 1 roof plate
 http://purl.obolibrary.org/obo/UBERON_0005594		head somite
 http://purl.obolibrary.org/obo/UBERON_0005629		vascular plexus
@@ -1191,6 +1356,7 @@ http://purl.obolibrary.org/obo/UBERON_0009775		lateral medullary reticular compl
 http://purl.obolibrary.org/obo/UBERON_0009776		intermediate reticular formation
 http://purl.obolibrary.org/obo/UBERON_0009777		intermediate reticular nucleus
 http://purl.obolibrary.org/obo/UBERON_0009835		anterior cingulate cortex
+http://purl.obolibrary.org/obo/UBERON_0009841		upper rhombic lip
 http://purl.obolibrary.org/obo/UBERON_0009856		sac
 http://purl.obolibrary.org/obo/UBERON_0009881		anterior lateral plate mesoderm
 http://purl.obolibrary.org/obo/UBERON_0009891		facial mesenchyme
@@ -1383,7 +1549,7 @@ http://purl.obolibrary.org/obo/UBERON_0014796		common tendinous ring
 http://purl.obolibrary.org/obo/UBERON_0014889		left hemisphere of cerebellum
 http://purl.obolibrary.org/obo/UBERON_0014890		right hemisphere of cerebellum
 http://purl.obolibrary.org/obo/UBERON_0014891		brainstem white matter
-http://purl.obolibrary.org/obo/UBERON_0014892		skeletal muscle organ
+http://purl.obolibrary.org/obo/UBERON_0014892		skeletal muscle organ, vertebrate
 http://purl.obolibrary.org/obo/UBERON_0014903		primordial vasculature
 http://purl.obolibrary.org/obo/UBERON_0014913		ventral pallium
 http://purl.obolibrary.org/obo/UBERON_0014915		genu of facial nerve
@@ -1599,7 +1765,9 @@ http://purl.obolibrary.org/obo/UBERON_8440074		interstitial nucleus of the vesti
 http://purl.obolibrary.org/obo/UBERON_8440075		gustatory cortex
 http://purl.obolibrary.org/obo/UBERON_8440076		somatomotor area
 http://purl.obolibrary.org/obo/UBERON_8440077		rhinal incisure
+http://purl.obolibrary.org/obo/UBERON_8450003		embryonic craniocervical region
 http://purl.obolibrary.org/obo/UBERON_8600004		visceral muscle tissue
+http://purl.obolibrary.org/obo/UBERON_8600018		neuroendocrine system
 https://purl.brain-bican.org/ontology/mbao/MBA_1	http://atlas.brain-map.org/atlas?atlas=602630314#structure=1	Tuberomammillary nucleus, ventral part  ( mouse )
 https://purl.brain-bican.org/ontology/mbao/MBA_1	http://atlas.brain-map.org/atlas?atlas=1#structure=1	Tuberomammillary nucleus, ventral part  ( mouse )
 https://purl.brain-bican.org/ontology/mbao/MBA_1	http://atlas.brain-map.org/atlas?atlas=2#structure=1	Tuberomammillary nucleus, ventral part  ( mouse )

@@ -15,7 +15,7 @@ def generate_robot_template(mapping_path: str, output_filepath: str):
 
     robot_template_seed = {'ID': 'ID',
                            'Label': 'A IAO:0000589',
-                           'Subclass part of': 'SC part_of some %',
+                           'Subclass part of': "SC 'part of' some %",
                            'Equivalent': 'EC %',
                            'SuperClass Label': '>A rdfs:label',
                            'Status': 'A oboInOwl:status',

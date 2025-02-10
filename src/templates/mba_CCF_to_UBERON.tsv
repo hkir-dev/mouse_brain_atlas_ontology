@@ -1,5 +1,5 @@
 ID	Label	logical type	Subclass part of	Equivalent	Evquivalent part of	SuperClass Label	Status	Approved by
-ID	A IAO:0000589	CLASS_TYPE	C part_of some % and (part_of some NCBITaxon:10090)	C % and (part_of some NCBITaxon:10090)	C part_of some %	>A rdfs:label	A oboInOwl:status	>A oboInOwl:source
+ID	A IAO:0000589	CLASS_TYPE	C 'part of' some % and ('part of' some NCBITaxon:10090)	C % and ('part of' some NCBITaxon:10090)	C 'part of' some %	>A rdfs:label	A oboInOwl:status	>A oboInOwl:source
 https://purl.brain-bican.org/ontology/mbao/MBA_ENTITY	MBA entity	equivalent		http://purl.obolibrary.org/obo/UBERON_0001062		anatomical entity	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_1	"tuberomammillary nucleus, ventral part"	equivalent		http://purl.obolibrary.org/obo/UBERON_0014594		tuberomammillary nucleus ventral part	Verified	https://ror.org/03cpe7c52
 https://purl.brain-bican.org/ontology/mbao/MBA_100	interpeduncular nucleus	equivalent		http://purl.obolibrary.org/obo/UBERON_0002145		interpeduncular nucleus	Verified	https://ror.org/03cpe7c52
